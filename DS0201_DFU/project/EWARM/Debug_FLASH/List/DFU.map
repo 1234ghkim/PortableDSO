@@ -1,0 +1,2619 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V4.60I/386                                         #
+#                                                                              #
+#           Link time     =  16/Aug/2009  18:37:35                             #
+#           Target CPU    =  ARM                                               #
+#           List file     =  D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\List\DFU.map                                    #
+#           Output file 1 =  D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Exe\DFU.d79                                     #
+#                            Format: debug                                     #
+#                            UBROF version 10.0.2                              #
+#                            Using library modules for C-SPY (-rt)             #
+#           Output file 2 =  D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Exe\DFU.sim                                     #
+#                            Format: simple-code                               #
+#           Command line  =  D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\cortexm3_macro.r79                          #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\hw_config.r79                               #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\main.r79                                    #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\spi_flash.r79                               #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\stm32f10x_flash.r79                         #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\stm32f10x_gpio.r79                          #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\stm32f10x_it.r79                            #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\stm32f10x_lib.r79                           #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\stm32f10x_nvic.r79                          #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\stm32f10x_rcc.r79                           #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\stm32f10x_spi.r79                           #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\stm32f10x_vector.r79                        #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\usb_core.r79                                #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\usb_desc.r79                                #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\usb_init.r79                                #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\usb_int.r79                                 #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\usb_istr.r79                                #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\usb_mem.r79                                 #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\usb_prop.r79                                #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\usb_pwr.r79                                 #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Obj\usb_regs.r79                                #
+#                            -o                                                #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\Exe\DFU.d79                                     #
+#                            -l                                                #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\Debug_FLAS #
+#                            H\List\DFU.map                                    #
+#                            -xms                                              #
+#                            "-IC:\Program Files\IAR Systems\Embedded Workbenc #
+#                            h 4.0 Evaluation\arm\LIB\"                        #
+#                            -f                                                #
+#                            D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS02 #
+#                            01_OpenSource\DS0201_DFU\project\EWARM\lnkarm_fla #
+#                            sh.xcl                                            #
+#                            (-DROMSTART=0x8000000 -DROMEND=0x801FFFF          #
+#                            -DRAMSTART=0x20000000 -DRAMEND=0x20004FFF -carm   #
+#                            -Z(CODE)INTVEC=ROMSTART-ROMEND                    #
+#                            -Z(CODE)ICODE,DIFUNCT=ROMSTART-ROMEND             #
+#                            -Z(CODE)SWITAB=ROMSTART-ROMEND                    #
+#                            -Z(CODE)CODE=ROMSTART-ROMEND                      #
+#                            -Z(CONST)CODE_ID=ROMSTART-ROMEND                  #
+#                            -Z(CONST)INITTAB,DATA_ID,DATA_C=ROMSTART-ROMEND   #
+#                            -Z(CONST)CHECKSUM=ROMSTART-ROMEND                 #
+#                            -Z(DATA)DATA_I,DATA_Z,DATA_N=RAMSTART-RAMEND      #
+#                            -Z(DATA)CODE_I=RAMSTART-RAMEND -QCODE_I=CODE_ID   #
+#                            -D_CSTACK_SIZE=400 -D_HEAP_SIZE=200               #
+#                            -Z(DATA)CSTACK+_CSTACK_SIZE=RAMSTART-RAMEND       #
+#                            -Z(DATA)HEAP+_HEAP_SIZE=RAMSTART-RAMEND) -rt      #
+#                            "C:\Program Files\IAR Systems\Embedded Workbench  #
+#                            4.0 Evaluation\arm\LIB\dl7mptnnl8f.r79"           #
+#                            -Osimple-code=D:\设计文档\123\DS0201示波器\Seeeds #
+#                            tudio项目\DS0201_OpenSource\DS0201_DFU\project\EW #
+#                            ARM\Debug_FLASH\Exe\DFU.sim                       #
+#                            -s __program_start                                #
+#                                                                              #
+#                        Copyright 1987-2007 IAR Systems. All rights reserved. #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at :           08000121  Relocatable, from module : ?CMAIN
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  StackAlign4            = USED
+  __cpu_mode             = __pcs__thumb
+  __data_model           = absolute
+  __dlib_file_descriptor = 1
+  __endian               = little
+  __rt_version           = 6
+
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+
+  DEFINED ABSOLUTE ENTRIES
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?ABS_ENTRY_MOD
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _HEAP_SIZE              00000200 
+           _CSTACK_SIZE            00000400 
+           RAMEND                  20004FFF 
+           RAMSTART                20000000 
+           ROMEND                  0801FFFF 
+           ROMSTART                08000000 
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\cortexm3_macro.r79
+  PROGRAM MODULE, NAME : cortexm3_macro
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08000150 - 080001BD (0x6e bytes), align: 2
+  Segment part 0. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __WFI                   08000151 
+           __WFE                   08000155 
+           __SEV                   08000159 
+           __ISB                   0800015D 
+           __DSB                   08000163 
+           __DMB                   08000169 
+           __SVC                   0800016F 
+           __MRS_CONTROL           08000173 
+           __MSR_CONTROL           08000179 
+           __MRS_PSP               08000183 
+           __MSR_PSP               08000189 
+           __MRS_MSP               0800018F 
+           __MSR_MSP               08000195        main (main)
+           __SETPRIMASK            0800019B 
+           __RESETPRIMASK          0800019F 
+           __SETFAULTMASK          080001A3 
+           __RESETFAULTMASK        080001A7 
+           __BASEPRICONFIG         080001AB 
+           __GetBASEPRI            080001B1 
+           __REV_HalfWord          080001B7 
+           __REV_Word              080001BB 
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\hw_config.r79
+  PROGRAM MODULE, NAME : hw_config
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20000674 - 20000674 (0x1 bytes), align: 0
+  Segment part 2.             Intra module refs:   Set_System
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           HSEStartUpStatus        20000674 
+    -------------------------------------------------------------------------
+DATA_C
+  Relative segment, address: 080022B0 - 0800287F (0x5d0 bytes), align: 2
+  Segment part 3.             Intra module refs:   Display_Str
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Char_Dot                080022B0 
+    -------------------------------------------------------------------------
+DATA_C
+  Relative segment, address: 08002880 - 0800307F (0x800 bytes), align: 2
+  Segment part 4.             Intra module refs:   Display_Logo
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Logo_Dot                08002880 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080001C0 - 08000257 (0x98 bytes), align: 2
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Set_System              080001C1        main (main)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000258 - 080002DF (0x88 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_Config             08000259        main (main)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080002E0 - 080002E3 (0x4 bytes), align: 2
+  Segment part 7.             Intra module refs:   GPIO_Config
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080002E4 - 080002E7 (0x4 bytes), align: 2
+  Segment part 8.             Intra module refs:   GPIO_Config
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080002E8 - 08000305 (0x1e bytes), align: 2
+  Segment part 9.             Intra module refs:   LCD_Initial
+                                                   Point_SCR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           LCD_WR_REG              080002E9 
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000308 - 08000321 (0x1a bytes), align: 2
+  Segment part 10.            Intra module refs:   LCD_Initial
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Delay_ms                08000309 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000324 - 080004DB (0x1b8 bytes), align: 2
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           LCD_Initial             08000325        main (main)
+               stack 1 = 00000000 ( 00000018 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080004DC - 080004DF (0x4 bytes), align: 2
+  Segment part 12.            Intra module refs:   GPIO_Config
+                                                   LCD_Initial
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080004E0 - 0800050D (0x2e bytes), align: 2
+  Segment part 13.            Intra module refs:   Clear_Screen
+                                                   Display_Logo
+                                                   Display_Str
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Point_SCR               080004E1 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000510 - 08000513 (0x4 bytes), align: 2
+  Segment part 14.            Intra module refs:   Delay_ms
+                                                   LCD_Initial
+                                                   LCD_WR_REG
+                                                   Point_SCR
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000514 - 08000523 (0x10 bytes), align: 2
+  Segment part 15.            Intra module refs:   Clear_Screen
+                                                   Display_Logo
+                                                   Display_Str
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Set_Pixel               08000515 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000524 - 08000527 (0x4 bytes), align: 2
+  Segment part 16.            Intra module refs:   LCD_Initial
+                                                   LCD_WR_REG
+                                                   Point_SCR
+                                                   Set_Pixel
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000528 - 0800052B (0x4 bytes), align: 2
+  Segment part 17.            Intra module refs:   LCD_Initial
+                                                   LCD_WR_REG
+                                                   Point_SCR
+                                                   Set_Pixel
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800052C - 08000549 (0x1e bytes), align: 2
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Clear_Screen            0800052D        main (main)
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800054C - 08000643 (0xf8 bytes), align: 2
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Display_Str             0800054D        main (main)
+               stack 1 = 00000000 ( 00000028 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000644 - 0800075F (0x11c bytes), align: 2
+  Segment part 20.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Display_Logo            08000645        main (main)
+               stack 1 = 00000000 ( 00000020 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000760 - 08000763 (0x4 bytes), align: 2
+  Segment part 21.            Intra module refs:   Display_Logo
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000764 - 08000767 (0x4 bytes), align: 2
+  Segment part 22.            Intra module refs:   Display_Logo
+                                                   LCD_Initial
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000768 - 08000769 (0x2 bytes), align: 2
+  Segment part 23.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Enter_LowPowerMode      08000769        Suspend (usb_pwr)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800076C - 0800076D (0x2 bytes), align: 2
+  Segment part 24.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Leave_LowPowerMode      0800076D        Resume_Init (usb_pwr)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000770 - 08000783 (0x14 bytes), align: 2
+  Segment part 25.            Intra module refs:   Reset_Device
+                                                   Set_System
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_Cable_Config        08000771        PowerOn (usb_pwr)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000784 - 08000787 (0x4 bytes), align: 2
+  Segment part 27.            Intra module refs:   USB_Cable_Config
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000788 - 080007CD (0x46 bytes), align: 2
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_Interrupts_Config   08000789        DFU_init (usb_prop)
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080007D0 - 080007DF (0x10 bytes), align: 2
+  Segment part 29.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Reset_Device            080007D1        DFU_write_crc (usb_prop)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080007E0 - 080007E3 (0x4 bytes), align: 2
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Internal_FLASH_WordWrite
+                                   080007E1        DFU_Status_Out (usb_prop)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080007E4 - 080007E7 (0x4 bytes), align: 2
+  Segment part 31.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Internal_FLASH_PageErase
+                                   080007E5        DFU_Status_Out (usb_prop)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+INITTAB
+  Relative segment, address: 08002074 - 0800207F (0xc bytes), align: 2
+  Segment part 60. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?init?tab?DATA_Z        08002074 
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\main.r79
+  PROGRAM MODULE, NAME : main
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20000224 - 20000237 (0x14 bytes), align: 2
+  Segment part 3.             Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DeviceState             2000022C        Segment part 25 (usb_prop)
+                                                   Segment part 43 (usb_prop)
+           DeviceStatus            20000224        DNLOAD (usb_prop)
+                                                   Segment part 32 (usb_prop)
+                                                   Segment part 44 (usb_prop)
+           JumpAddress             20000234 
+           Jump_To_Application     20000230 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080007E8 - 080008BB (0xd4 bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           main                    080007E9        _main (?CMAIN)
+               stack 1 = 00000000 ( 00000020 )
+    -------------------------------------------------------------------------
+DATA_C
+  Relative segment, address: 08003080 - 0800310B (0x8c bytes), align: 2
+  Segment part 2.             Intra module refs:   main
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\spi_flash.r79
+  PROGRAM MODULE, NAME : spi_flash
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 080008BC - 080008F7 (0x3c bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_SectorErase   080008BD        DFU_Status_Out (usb_prop)
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080008F8 - 08000945 (0x4e bytes), align: 2
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_PageWrite     080008F9        DFU_Status_Out (usb_prop)
+               stack 1 = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000948 - 08000995 (0x4e bytes), align: 2
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_BufferRead    08000949        UPLOAD (usb_prop)
+               stack 1 = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000998 - 080009C7 (0x30 bytes), align: 2
+  Segment part 11.            Intra module refs:   SPI_FLASH_BufferRead
+                                                   SPI_FLASH_PageWrite
+                                                   SPI_FLASH_SectorErase
+                                                   SPI_FLASH_WaitForWriteEnd
+                                                   SPI_FLASH_WriteEnable
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_SendByte      08000999 
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080009C8 - 080009CB (0x4 bytes), align: 2
+  Segment part 13.            Intra module refs:   SPI_FLASH_SendByte
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080009CC - 080009E9 (0x1e bytes), align: 2
+  Segment part 14.            Intra module refs:   SPI_FLASH_PageWrite
+                                                   SPI_FLASH_SectorErase
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_WriteEnable   080009CD 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080009EC - 08000A13 (0x28 bytes), align: 2
+  Segment part 15.            Intra module refs:   SPI_FLASH_PageWrite
+                                                   SPI_FLASH_SectorErase
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_WaitForWriteEnd
+                                   080009ED 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000A14 - 08000A17 (0x4 bytes), align: 2
+  Segment part 16.            Intra module refs:   SPI_FLASH_BufferRead
+                                                   SPI_FLASH_PageWrite
+                                                   SPI_FLASH_SectorErase
+                                                   SPI_FLASH_WaitForWriteEnd
+                                                   SPI_FLASH_WriteEnable
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\stm32f10x_flash.r79
+  PROGRAM MODULE, NAME : stm32f10x_flash
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08000A18 - 08000A21 (0xa bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_SetLatency        08000A19        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000A24 - 08000A27 (0x4 bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_PrefetchBufferCmd
+                                   08000A25        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000A28 - 08000A35 (0xe bytes), align: 2
+  Segment part 5.             Intra module refs:   FLASH_PrefetchBufferCmd
+                                                   FLASH_SetLatency
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            08000A29 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000A38 - 08000A3B (0x4 bytes), align: 2
+  Segment part 6.             Intra module refs:   FLASH_PrefetchBufferCmd
+                                                   FLASH_SetLatency
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000A3C - 08000A4B (0x10 bytes), align: 2
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_Unlock            08000A3D        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000A4C - 08000A8F (0x44 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_ErasePage         08000A4D        Internal_FLASH_PageErase (hw_config)
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000A90 - 08000AD9 (0x4a bytes), align: 2
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_ProgramWord       08000A91        Internal_FLASH_WordWrite (hw_config)
+               stack 1 = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000ADC - 08000ADF (0x4 bytes), align: 2
+  Segment part 14.            Intra module refs:   FLASH_ProgramWord
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000AE0 - 08000AE3 (0x4 bytes), align: 2
+  Segment part 18.            Intra module refs:   FLASH_ErasePage
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000AE4 - 08000AE7 (0x4 bytes), align: 2
+  Segment part 19.            Intra module refs:   FLASH_Unlock
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000AE8 - 08000AEB (0x4 bytes), align: 2
+  Segment part 20.            Intra module refs:   FLASH_Unlock
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000AEC - 08000AEF (0x4 bytes), align: 2
+  Segment part 27.            Intra module refs:   FLASH_ErasePage
+                                                   FLASH_ProgramWord
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000AF0 - 08000B13 (0x24 bytes), align: 2
+  Segment part 39.            Intra module refs:   FLASH_WaitForLastOperation
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_GetStatus         08000AF1 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B14 - 08000B17 (0x4 bytes), align: 2
+  Segment part 40.            Intra module refs:   FLASH_GetStatus
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B18 - 08000B47 (0x30 bytes), align: 2
+  Segment part 41.            Intra module refs:   FLASH_ErasePage
+                                                   FLASH_ProgramWord
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_WaitForLastOperation
+                                   08000B19 
+               stack 1 = 00000000 ( 0000000C )
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\stm32f10x_gpio.r79
+  PROGRAM MODULE, NAME : stm32f10x_gpio
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08000B48 - 08000B57 (0x10 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_ReadInputDataBit   08000B49        main (main)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B58 - 08000B5B (0x4 bytes), align: 2
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_SetBits            08000B59        SPI_FLASH_BufferRead (spi_flash)
+                                                   SPI_FLASH_PageWrite (spi_flash)
+                                                   SPI_FLASH_SectorErase (spi_flash)
+                                                   SPI_FLASH_WaitForWriteEnd (spi_flash)
+                                                   SPI_FLASH_WriteEnable (spi_flash)
+                                                   USB_Cable_Config (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B5C - 08000B5F (0x4 bytes), align: 2
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_ResetBits          08000B5D        SPI_FLASH_BufferRead (spi_flash)
+                                                   SPI_FLASH_PageWrite (spi_flash)
+                                                   SPI_FLASH_SectorErase (spi_flash)
+                                                   SPI_FLASH_WaitForWriteEnd (spi_flash)
+                                                   SPI_FLASH_WriteEnable (spi_flash)
+                                                   USB_Cable_Config (hw_config)
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\stm32f10x_it.r79
+  PROGRAM MODULE, NAME : stm32f10x_it
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08000B60 - 08000B61 (0x2 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NMIException            08000B61        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B64 - 08000B65 (0x2 bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           HardFaultException      08000B65        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B68 - 08000B69 (0x2 bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MemManageException      08000B69        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B6C - 08000B6D (0x2 bytes), align: 2
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           BusFaultException       08000B6D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B70 - 08000B71 (0x2 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UsageFaultException     08000B71        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B74 - 08000B75 (0x2 bytes), align: 2
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DebugMonitor            08000B75        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B78 - 08000B79 (0x2 bytes), align: 2
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SVCHandler              08000B79        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B7C - 08000B7D (0x2 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PendSVC                 08000B7D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B80 - 08000B81 (0x2 bytes), align: 2
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SysTickHandler          08000B81        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B84 - 08000B85 (0x2 bytes), align: 2
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           WWDG_IRQHandler         08000B85        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B88 - 08000B89 (0x2 bytes), align: 2
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PVD_IRQHandler          08000B89        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B8C - 08000B8D (0x2 bytes), align: 2
+  Segment part 13.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TAMPER_IRQHandler       08000B8D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B90 - 08000B91 (0x2 bytes), align: 2
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RTC_IRQHandler          08000B91        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B94 - 08000B95 (0x2 bytes), align: 2
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_IRQHandler        08000B95        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B98 - 08000B99 (0x2 bytes), align: 2
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_IRQHandler          08000B99        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000B9C - 08000B9D (0x2 bytes), align: 2
+  Segment part 17.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI0_IRQHandler        08000B9D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BA0 - 08000BA1 (0x2 bytes), align: 2
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI1_IRQHandler        08000BA1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BA4 - 08000BA5 (0x2 bytes), align: 2
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI2_IRQHandler        08000BA5        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BA8 - 08000BA9 (0x2 bytes), align: 2
+  Segment part 20.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI3_IRQHandler        08000BA9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BAC - 08000BAD (0x2 bytes), align: 2
+  Segment part 21.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI4_IRQHandler        08000BAD        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BB0 - 08000BB1 (0x2 bytes), align: 2
+  Segment part 22.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel1_IRQHandler
+                                   08000BB1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BB4 - 08000BB5 (0x2 bytes), align: 2
+  Segment part 23.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel2_IRQHandler
+                                   08000BB5        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BB8 - 08000BB9 (0x2 bytes), align: 2
+  Segment part 24.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel3_IRQHandler
+                                   08000BB9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BBC - 08000BBD (0x2 bytes), align: 2
+  Segment part 25.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel4_IRQHandler
+                                   08000BBD        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BC0 - 08000BC1 (0x2 bytes), align: 2
+  Segment part 26.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel5_IRQHandler
+                                   08000BC1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BC4 - 08000BC5 (0x2 bytes), align: 2
+  Segment part 27.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel6_IRQHandler
+                                   08000BC5        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BC8 - 08000BC9 (0x2 bytes), align: 2
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel7_IRQHandler
+                                   08000BC9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BCC - 08000BCD (0x2 bytes), align: 2
+  Segment part 29.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ADC_IRQHandler          08000BCD        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BD0 - 08000BD1 (0x2 bytes), align: 2
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_HP_CAN_TX_IRQHandler
+                                   08000BD1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BD4 - 08000BD7 (0x4 bytes), align: 2
+  Segment part 31.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_LP_CAN_RX0_IRQHandler
+                                   08000BD5        __vector_table (stm32f10x_vector)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BD8 - 08000BD9 (0x2 bytes), align: 2
+  Segment part 32.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CAN_RX1_IRQHandler      08000BD9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BDC - 08000BDD (0x2 bytes), align: 2
+  Segment part 33.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CAN_SCE_IRQHandler      08000BDD        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BE0 - 08000BE1 (0x2 bytes), align: 2
+  Segment part 34.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI9_5_IRQHandler      08000BE1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BE4 - 08000BE5 (0x2 bytes), align: 2
+  Segment part 35.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM1_BRK_IRQHandler     08000BE5        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BE8 - 08000BE9 (0x2 bytes), align: 2
+  Segment part 36.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM1_UP_IRQHandler      08000BE9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BEC - 08000BED (0x2 bytes), align: 2
+  Segment part 37.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM1_TRG_COM_IRQHandler
+                                   08000BED        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BF0 - 08000BF1 (0x2 bytes), align: 2
+  Segment part 38.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM1_CC_IRQHandler      08000BF1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BF4 - 08000BF5 (0x2 bytes), align: 2
+  Segment part 39.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM2_IRQHandler         08000BF5        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BF8 - 08000BF9 (0x2 bytes), align: 2
+  Segment part 40.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM3_IRQHandler         08000BF9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000BFC - 08000BFD (0x2 bytes), align: 2
+  Segment part 41.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM4_IRQHandler         08000BFD        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C00 - 08000C01 (0x2 bytes), align: 2
+  Segment part 42.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C1_EV_IRQHandler      08000C01        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C04 - 08000C05 (0x2 bytes), align: 2
+  Segment part 43.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C1_ER_IRQHandler      08000C05        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C08 - 08000C09 (0x2 bytes), align: 2
+  Segment part 44.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C2_EV_IRQHandler      08000C09        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C0C - 08000C0D (0x2 bytes), align: 2
+  Segment part 45.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C2_ER_IRQHandler      08000C0D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C10 - 08000C11 (0x2 bytes), align: 2
+  Segment part 46.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI1_IRQHandler         08000C11        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C14 - 08000C15 (0x2 bytes), align: 2
+  Segment part 47.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI2_IRQHandler         08000C15        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C18 - 08000C19 (0x2 bytes), align: 2
+  Segment part 48.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USART1_IRQHandler       08000C19        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C1C - 08000C1D (0x2 bytes), align: 2
+  Segment part 49.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USART2_IRQHandler       08000C1D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C20 - 08000C21 (0x2 bytes), align: 2
+  Segment part 50.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USART3_IRQHandler       08000C21        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C24 - 08000C25 (0x2 bytes), align: 2
+  Segment part 51.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI15_10_IRQHandler    08000C25        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C28 - 08000C29 (0x2 bytes), align: 2
+  Segment part 52.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RTCAlarm_IRQHandler     08000C29        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C2C - 08000C2D (0x2 bytes), align: 2
+  Segment part 53.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USBWakeUp_IRQHandler    08000C2D        __vector_table (stm32f10x_vector)
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\stm32f10x_lib.r79
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\stm32f10x_nvic.r79
+  PROGRAM MODULE, NAME : stm32f10x_nvic
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08000C30 - 08000C39 (0xa bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NVIC_PriorityGroupConfig
+                                   08000C31        USB_Interrupts_Config (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C3C - 08000C3F (0x4 bytes), align: 2
+  Segment part 5.             Intra module refs:   NVIC_PriorityGroupConfig
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000C40 - 08000CB7 (0x78 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NVIC_Init               08000C41        USB_Interrupts_Config (hw_config)
+               stack 1 = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000CB8 - 08000CBB (0x4 bytes), align: 2
+  Segment part 7.             Intra module refs:   NVIC_Init
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000CBC - 08000CBF (0x4 bytes), align: 2
+  Segment part 8.             Intra module refs:   NVIC_Init
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000CC0 - 08000CCF (0x10 bytes), align: 2
+  Segment part 24.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NVIC_SetVectorTable     08000CC1        USB_Interrupts_Config (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000CD0 - 08000CD3 (0x4 bytes), align: 2
+  Segment part 25.            Intra module refs:   NVIC_SetVectorTable
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000CD4 - 08000CDF (0xc bytes), align: 2
+  Segment part 26.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NVIC_GenerateSystemReset
+                                   08000CD5        Reset_Device (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000CE0 - 08000CE3 (0x4 bytes), align: 2
+  Segment part 32.            Intra module refs:   NVIC_GenerateSystemReset
+                                                   NVIC_Init
+                                                   NVIC_PriorityGroupConfig
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\stm32f10x_rcc.r79
+  PROGRAM MODULE, NAME : stm32f10x_rcc
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20000238 - 2000023F (0x8 bytes), align: 2
+  Segment part 3.             Intra module refs:   RCC_WaitForHSEStartUp
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           HSEStatus               20000238 
+           StartUpCounter          2000023C 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000CE4 - 08000D3B (0x58 bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_DeInit              08000CE5        Set_System (hw_config)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000D3C - 08000D73 (0x38 bytes), align: 2
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_HSEConfig           08000D3D        Set_System (hw_config)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000D74 - 08000D9F (0x2c bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_WaitForHSEStartUp   08000D75        Set_System (hw_config)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000DA0 - 08000DB3 (0x14 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_PLLConfig           08000DA1        Set_System (hw_config)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000DB4 - 08000DBF (0xc bytes), align: 2
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_PLLCmd              08000DB5        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000DC0 - 08000DC5 (0x6 bytes), align: 2
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_SYSCLKConfig        08000DC1        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000DC8 - 08000DD1 (0xa bytes), align: 2
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_GetSYSCLKSource     08000DC9        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000DD4 - 08000DD7 (0x4 bytes), align: 2
+  Segment part 13.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_HCLKConfig          08000DD5        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000DD8 - 08000DE1 (0xa bytes), align: 2
+  Segment part 14.            Intra module refs:   RCC_HCLKConfig
+                                                   RCC_SYSCLKConfig
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            08000DD9 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000DE4 - 08000DEB (0x8 bytes), align: 2
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_PCLK1Config         08000DE5        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000DEC - 08000DFD (0x12 bytes), align: 2
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_PCLK2Config         08000DED        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E00 - 08000E0B (0xc bytes), align: 2
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_USBCLKConfig        08000E01        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E0C - 08000E13 (0x8 bytes), align: 2
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_ADCCLKConfig        08000E0D        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E14 - 08000E1D (0xa bytes), align: 2
+  Segment part 20.            Intra module refs:   RCC_ADCCLKConfig
+                                                   RCC_PCLK1Config
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            08000E15 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E20 - 08000E23 (0x4 bytes), align: 2
+  Segment part 26.            Intra module refs:   RCC_ADCCLKConfig
+                                                   RCC_DeInit
+                                                   RCC_GetSYSCLKSource
+                                                   RCC_HCLKConfig
+                                                   RCC_PCLK1Config
+                                                   RCC_PCLK2Config
+                                                   RCC_PLLConfig
+                                                   RCC_SYSCLKConfig
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E24 - 08000E33 (0x10 bytes), align: 2
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_APB2PeriphClockCmd
+                                   08000E25        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E34 - 08000E3F (0xc bytes), align: 2
+  Segment part 29.            Intra module refs:   RCC_APB1PeriphClockCmd
+                                                   RCC_APB2PeriphClockCmd
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine2            08000E35 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E40 - 08000E53 (0x14 bytes), align: 2
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_APB1PeriphClockCmd
+                                   08000E41        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E54 - 08000E57 (0x4 bytes), align: 2
+  Segment part 32.            Intra module refs:   RCC_DeInit
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E58 - 08000E83 (0x2c bytes), align: 2
+  Segment part 37.            Intra module refs:   RCC_WaitForHSEStartUp
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_GetFlagStatus       08000E59        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E84 - 08000E87 (0x4 bytes), align: 2
+  Segment part 38.            Intra module refs:   RCC_GetFlagStatus
+                                                   RCC_HSEConfig
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E88 - 08000E8B (0x4 bytes), align: 2
+  Segment part 39.            Intra module refs:   RCC_GetFlagStatus
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E8C - 08000E8F (0x4 bytes), align: 2
+  Segment part 41.            Intra module refs:   RCC_GetFlagStatus
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E90 - 08000E93 (0x4 bytes), align: 2
+  Segment part 43.            Intra module refs:   RCC_DeInit
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\stm32f10x_spi.r79
+  PROGRAM MODULE, NAME : stm32f10x_spi
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08000E94 - 08000E97 (0x4 bytes), align: 2
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_SendData            08000E95        SPI_FLASH_SendByte (spi_flash)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E98 - 08000E9B (0x4 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_ReceiveData         08000E99        SPI_FLASH_SendByte (spi_flash)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000E9C - 08000EAB (0x10 bytes), align: 2
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_GetFlagStatus       08000E9D        SPI_FLASH_SendByte (spi_flash)
+               stack 1 = 00000000 ( 00000004 )
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\stm32f10x_vector.r79
+  PROGRAM MODULE, NAME : stm32f10x_vector
+
+  SEGMENTS IN THE MODULE
+  ======================
+INTVEC
+  Relative segment, address: 08000000 - 080000EB (0xec bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __vector_table          08000000        __program_start (?CMAIN)
+    -------------------------------------------------------------------------
+CSTACK
+  Relative segment, address: 2000067C, align: 2
+  Segment part 1.
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\usb_core.r79
+  PROGRAM MODULE, NAME : usb_core
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20000668 - 20000669 (0x2 bytes), align: 1
+  Segment part 2.             Intra module refs:   Standard_GetStatus
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           StatusInfo              20000668 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000EAC - 08000EC1 (0x16 bytes), align: 2
+  Segment part 3.             Intra module refs:   Data_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_GetConfiguration
+                                   08000EAD 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000EC4 - 08000EF3 (0x30 bytes), align: 2
+  Segment part 4.             Intra module refs:   NoData_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_SetConfiguration
+                                   08000EC5 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000EF4 - 08000F09 (0x16 bytes), align: 2
+  Segment part 5.             Intra module refs:   Data_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_GetInterface   08000EF5 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000F0C - 08000F15 (0xa bytes), align: 2
+  Segment part 6.             Intra module refs:   Standard_GetConfiguration
+                                                   Standard_GetInterface
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            08000F0D 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000F18 - 08000F55 (0x3e bytes), align: 2
+  Segment part 7.             Intra module refs:   NoData_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_SetInterface   08000F19 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000F58 - 08000F5B (0x4 bytes), align: 2
+  Segment part 8.             Intra module refs:   Standard_SetInterface
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000F5C - 08000FEF (0x94 bytes), align: 2
+  Segment part 9.             Intra module refs:   Data_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_GetStatus      08000F5D 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08000FF0 - 080010B1 (0xc2 bytes), align: 2
+  Segment part 10.            Intra module refs:   NoData_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_ClearFeature   08000FF1 
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080010B4 - 080010B7 (0x4 bytes), align: 2
+  Segment part 11.            Intra module refs:   Standard_ClearFeature
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080010B8 - 08001127 (0x70 bytes), align: 2
+  Segment part 12.            Intra module refs:   NoData_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_SetEndPointFeature
+                                   080010B9 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001128 - 0800112B (0x4 bytes), align: 2
+  Segment part 13.            Intra module refs:   Standard_ClearFeature
+                                                   Standard_SetEndPointFeature
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800112C - 0800112F (0x4 bytes), align: 2
+  Segment part 14.            Intra module refs:   Standard_ClearFeature
+                                                   Standard_GetStatus
+                                                   Standard_SetEndPointFeature
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001130 - 08001133 (0x4 bytes), align: 2
+  Segment part 15.            Intra module refs:   Standard_ClearFeature
+                                                   Standard_SetEndPointFeature
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001134 - 0800114D (0x1a bytes), align: 2
+  Segment part 16.            Intra module refs:   NoData_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_SetDeviceFeature
+                                   08001135 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001150 - 08001153 (0x4 bytes), align: 2
+  Segment part 17.            Intra module refs:   Standard_ClearFeature
+                                                   Standard_GetConfiguration
+                                                   Standard_GetInterface
+                                                   Standard_GetStatus
+                                                   Standard_SetConfiguration
+                                                   Standard_SetDeviceFeature
+                                                   Standard_SetEndPointFeature
+                                                   Standard_SetInterface
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001154 - 0800116B (0x18 bytes), align: 2
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_GetDescriptorData
+                                   08001155        DFU_GetConfigDescriptor (usb_prop)
+                                                   DFU_GetDeviceDescriptor (usb_prop)
+                                                   DFU_GetStringDescriptor (usb_prop)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800116C - 0800116F (0x4 bytes), align: 2
+  Segment part 19.            Intra module refs:   Standard_ClearFeature
+                                                   Standard_GetConfiguration
+                                                   Standard_GetDescriptorData
+                                                   Standard_GetInterface
+                                                   Standard_GetStatus
+                                                   Standard_SetConfiguration
+                                                   Standard_SetDeviceFeature
+                                                   Standard_SetEndPointFeature
+                                                   Standard_SetInterface
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001170 - 080011F1 (0x82 bytes), align: 2
+  Segment part 20.            Intra module refs:   Out0_Process
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           DataStageOut            08001171 
+               stack 1 = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080011F4 - 08001267 (0x74 bytes), align: 2
+  Segment part 21.            Intra module refs:   Data_Setup0
+                                                   In0_Process
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           DataStageIn             080011F5 
+               stack 1 = 00000000 ( 00000018 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001268 - 0800131D (0xb6 bytes), align: 2
+  Segment part 22.            Intra module refs:   Setup0_Process
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           NoData_Setup0           08001269 
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001320 - 08001323 (0x4 bytes), align: 2
+  Segment part 23.            Intra module refs:   DataStageIn
+                                                   DataStageOut
+                                                   NoData_Setup0
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001324 - 08001327 (0x4 bytes), align: 2
+  Segment part 24.            Intra module refs:   DataStageOut
+                                                   NoData_Setup0
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001328 - 0800132B (0x4 bytes), align: 2
+  Segment part 25.            Intra module refs:   DataStageOut
+                                                   NoData_Setup0
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800132C - 0800132F (0x4 bytes), align: 2
+  Segment part 26.            Intra module refs:   DataStageIn
+                                                   DataStageOut
+                                                   NoData_Setup0
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001330 - 0800148B (0x15c bytes), align: 2
+  Segment part 27.            Intra module refs:   Setup0_Process
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           Data_Setup0             08001331 
+               stack 1 = 00000000 ( 0000001C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800148C - 0800148F (0x4 bytes), align: 2
+  Segment part 28.            Intra module refs:   DataStageIn
+                                                   DataStageOut
+                                                   Data_Setup0
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001490 - 08001503 (0x74 bytes), align: 2
+  Segment part 29.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Setup0_Process          08001491        CTR_LP (usb_int)
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001504 - 08001507 (0x4 bytes), align: 2
+  Segment part 30.            Intra module refs:   Setup0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001508 - 08001553 (0x4c bytes), align: 2
+  Segment part 31.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           In0_Process             08001509        CTR_LP (usb_int)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001554 - 08001557 (0x4 bytes), align: 2
+  Segment part 32.            Intra module refs:   In0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001558 - 08001587 (0x30 bytes), align: 2
+  Segment part 33.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Out0_Process            08001559        CTR_LP (usb_int)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001588 - 080015B9 (0x32 bytes), align: 2
+  Segment part 34.            Intra module refs:   In0_Process
+                                                   Out0_Process
+                                                   Setup0_Process
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Post0_Process           08001589 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080015BC - 080015BF (0x4 bytes), align: 2
+  Segment part 35.            Intra module refs:   Data_Setup0
+                                                   In0_Process
+                                                   NoData_Setup0
+                                                   Out0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080015C0 - 080015C3 (0x4 bytes), align: 2
+  Segment part 36.            Intra module refs:   Post0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080015C4 - 080015C7 (0x4 bytes), align: 2
+  Segment part 37.            Intra module refs:   Data_Setup0
+                                                   In0_Process
+                                                   Out0_Process
+                                                   Post0_Process
+                                                   Setup0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080015C8 - 080015CB (0x4 bytes), align: 2
+  Segment part 38.            Intra module refs:   Post0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080015CC - 080015CF (0x4 bytes), align: 2
+  Segment part 39.            Intra module refs:   Post0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080015D0 - 08001603 (0x34 bytes), align: 2
+  Segment part 40.            Intra module refs:   In0_Process
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetDeviceAddress        080015D1        DFU_Reset (usb_prop)
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001604 - 08001607 (0x4 bytes), align: 2
+  Segment part 41.            Intra module refs:   Data_Setup0
+                                                   SetDeviceAddress
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001608 - 0800160B (0x4 bytes), align: 2
+  Segment part 42.            Intra module refs:   Data_Setup0
+                                                   SetDeviceAddress
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800160C - 0800160D (0x2 bytes), align: 2
+  Segment part 43.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NOP_Process             0800160D        DFU_init (usb_prop)
+                                                   Segment part 10 (usb_prop)
+                                                   Segment part 4 (usb_istr)
+                                                   Segment part 6 (usb_istr)
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\usb_desc.r79
+  PROGRAM MODULE, NAME : usb_desc
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_I
+  Relative segment, address: 20000000 - 20000013 (0x14 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_DeviceDescriptor    20000000        Segment part 12 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20000014 - 20000037 (0x24 bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_ConfigDescriptor    20000014        DFU_init (usb_prop)
+                                                   Segment part 14 (usb_prop)
+                                                   Segment part 42 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20000038 - 2000003B (0x4 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringLangId        20000038        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 2000003C - 20000063 (0x28 bytes), align: 2
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringVendor        2000003C        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20000064 - 20000077 (0x14 bytes), align: 2
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringProduct       20000064        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20000078 - 2000007F (0x8 bytes), align: 2
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringSerial        20000078        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20000080 - 200000DF (0x60 bytes), align: 2
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringInterface0    20000080        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 200000E0 - 20000143 (0x64 bytes), align: 2
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringInterface1    200000E0        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 0800208C - 0800209F (0x14 bytes), align: 2
+  Segment part 3.             Intra module refs:   DFU_DeviceDescriptor
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 080020A0 - 080020C3 (0x24 bytes), align: 2
+  Segment part 5.             Intra module refs:   DFU_ConfigDescriptor
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 080020C4 - 080020C7 (0x4 bytes), align: 2
+  Segment part 7.             Intra module refs:   DFU_StringLangId
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 080020C8 - 080020EF (0x28 bytes), align: 2
+  Segment part 9.             Intra module refs:   DFU_StringVendor
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 080020F0 - 08002103 (0x14 bytes), align: 2
+  Segment part 11.            Intra module refs:   DFU_StringProduct
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 08002104 - 0800210B (0x8 bytes), align: 2
+  Segment part 13.            Intra module refs:   DFU_StringSerial
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 0800210C - 0800216B (0x60 bytes), align: 2
+  Segment part 15.            Intra module refs:   DFU_StringInterface0
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 0800216C - 080021CF (0x64 bytes), align: 2
+  Segment part 17.            Intra module refs:   DFU_StringInterface1
+    -------------------------------------------------------------------------
+INITTAB
+  Relative segment, address: 08002080 - 0800208B (0xc bytes), align: 2
+  Segment part 19. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?init?tab?DATA_I        08002080 
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\usb_init.r79
+  PROGRAM MODULE, NAME : usb_init
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20000675 - 20000675 (0x1 bytes), align: 0
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EPindex                 20000675        Segment part 7 (usb_int)
+    -------------------------------------------------------------------------
+DATA_Z
+  Relative segment, address: 20000240 - 20000267 (0x28 bytes), align: 2
+  Segment part 3.             Intra module refs:   USB_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Device_Info             20000240        DFU_GetStringDescriptor (usb_prop)
+                                                   DFU_Reset (usb_prop)
+                                                   DFU_Status_Out (usb_prop)
+                                                   Segment part 18 (usb_prop)
+                                                   Segment part 34 (usb_prop)
+           pInformation            2000025C        Segment part 19 (usb_core)
+                                                   Segment part 23 (usb_core)
+                                                   Segment part 36 (usb_prop)
+                                                   Segment part 37 (usb_core)
+                                                   Segment part 40 (usb_prop)
+           pProperty               20000260        Segment part 35 (usb_core)
+                                                   Segment part 8 (usb_core)
+           pUser_Standard_Requests
+                                   20000264        Segment part 17 (usb_core)
+                                                   Segment part 32 (usb_core)
+    -------------------------------------------------------------------------
+DATA_Z
+  Relative segment, address: 2000066A - 2000066B (0x2 bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           wInterrupt_Mask         2000066A        DFU_init (usb_prop)
+                                                   PowerOn (usb_pwr)
+                                                   USB_Istr (usb_istr)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001610 - 0800162F (0x20 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_Init                08001611        main (main)
+               stack 1 = 00000000 ( 00000004 )
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\usb_int.r79
+  PROGRAM MODULE, NAME : usb_int
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 2000066C - 2000066F (0x4 bytes), align: 1
+  Segment part 2.             Intra module refs:   CTR_LP
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SaveRState              2000066C        Segment part 28 (usb_core)
+                                                   Segment part 38 (usb_core)
+           SaveTState              2000066E        Segment part 26 (usb_core)
+                                                   Segment part 39 (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001630 - 08001773 (0x144 bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CTR_LP                  08001631        USB_Istr (usb_istr)
+               stack 1 = 00000000 ( 00000024 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001774 - 08001777 (0x4 bytes), align: 2
+  Segment part 5.             Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001778 - 0800177B (0x4 bytes), align: 2
+  Segment part 6.             Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800177C - 0800177F (0x4 bytes), align: 2
+  Segment part 7.             Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001780 - 08001783 (0x4 bytes), align: 2
+  Segment part 8.             Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001784 - 08001787 (0x4 bytes), align: 2
+  Segment part 9.             Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001788 - 0800178B (0x4 bytes), align: 2
+  Segment part 10.            Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800178C - 0800178F (0x4 bytes), align: 2
+  Segment part 11.            Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001790 - 08001793 (0x4 bytes), align: 2
+  Segment part 12.            Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001794 - 08001797 (0x4 bytes), align: 2
+  Segment part 13.            Intra module refs:   CTR_LP
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\usb_istr.r79
+  PROGRAM MODULE, NAME : usb_istr
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20000670 - 20000673 (0x4 bytes), align: 1
+  Segment part 2.             Intra module refs:   USB_Istr
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           bIntPackSOF             20000670 
+           wIstr                   20000672        Segment part 5 (usb_int)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20000144 - 2000015F (0x1c bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           pEpInt_IN               20000144        Segment part 13 (usb_int)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20000160 - 2000017B (0x1c bytes), align: 2
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           pEpInt_OUT              20000160        Segment part 10 (usb_int)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001798 - 08001857 (0xc0 bytes), align: 2
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_Istr                08001799        USB_LP_CAN_RX0_IRQHandler (stm32f10x_it)
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 080021D0 - 080021EB (0x1c bytes), align: 2
+  Segment part 4.             Intra module refs:   pEpInt_IN
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 080021EC - 08002207 (0x1c bytes), align: 2
+  Segment part 6.             Intra module refs:   pEpInt_OUT
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\usb_mem.r79
+  PROGRAM MODULE, NAME : usb_mem
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08001858 - 0800187B (0x24 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UserToPMABufferCopy     08001859        DataStageIn (usb_core)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800187C - 08001895 (0x1a bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PMAToUserBufferCopy     0800187D        DataStageOut (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001898 - 0800189B (0x4 bytes), align: 2
+  Segment part 4.             Intra module refs:   PMAToUserBufferCopy
+                                                   UserToPMABufferCopy
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\usb_prop.r79
+  PROGRAM MODULE, NAME : usb_prop
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20000268 - 20000667 (0x400 bytes), align: 2
+  Segment part 2.             Intra module refs:   Segment part 22
+                                                   Segment part 39
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Load_Buffer             20000268 
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 2000017C - 2000018B (0x10 bytes), align: 2
+  Segment part 3.             Intra module refs:   DFU_write_crc
+                                                   Segment part 26
+                                                   Segment part 38
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Manifest_State          20000184 
+           Pointer                 20000188 
+           wBlockNum               2000017C 
+           wlength                 20000180 
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20000220 - 20000221 (0x2 bytes), align: 0
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Device_Table            20000220        Segment part 13 (usb_core)
+                                                   Segment part 41 (usb_core)
+                                                   Standard_SetConfiguration (usb_core)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 2000018C - 200001BB (0x30 bytes), align: 2
+  Segment part 7.             Intra module refs:   DFU_Reset
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Device_Property         2000018C        Segment part 11 (usb_core)
+                                                   Segment part 36 (usb_core)
+                                                   USB_Init (usb_init)
+                                                   USB_Istr (usb_istr)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 200001BC - 200001DF (0x24 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           User_Standard_Requests
+                                   200001BC        USB_Init (usb_init)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 200001E0 - 200001E7 (0x8 bytes), align: 2
+  Segment part 11.            Intra module refs:   DFU_GetDeviceDescriptor
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Device_Descriptor       200001E0 
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 200001E8 - 200001EF (0x8 bytes), align: 2
+  Segment part 13.            Intra module refs:   DFU_GetConfigDescriptor
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Config_Descriptor       200001E8 
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 200001F0 - 2000021F (0x30 bytes), align: 2
+  Segment part 15.            Intra module refs:   DFU_GetStringDescriptor
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_String_Descriptor   200001F0 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800189C - 080018EB (0x50 bytes), align: 2
+  Segment part 17.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_init                0800189D 
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080018EC - 080018EF (0x4 bytes), align: 2
+  Segment part 18.            Intra module refs:   DFU_init
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 080018F0 - 08001977 (0x88 bytes), align: 2
+  Segment part 19.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Reset               080018F1 
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001978 - 08001979 (0x2 bytes), align: 2
+  Segment part 20.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Status_In           08001979 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800197C - 08001AA7 (0x12c bytes), align: 2
+  Segment part 21.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Status_Out          0800197D 
+               stack 1 = 00000000 ( 00000020 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001AA8 - 08001AAB (0x4 bytes), align: 2
+  Segment part 22.            Intra module refs:   DFU_Status_Out
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001AAC - 08001B17 (0x6c bytes), align: 2
+  Segment part 23.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Data_Setup          08001AAD 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001B18 - 08001BBB (0xa4 bytes), align: 2
+  Segment part 24.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_NoData_Setup        08001B19 
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001BBC - 08001BBF (0x4 bytes), align: 2
+  Segment part 25.            Intra module refs:   DFU_Data_Setup
+                                                   DFU_NoData_Setup
+                                                   DFU_Status_Out
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001BC0 - 08001BC3 (0x4 bytes), align: 2
+  Segment part 26.            Intra module refs:   DFU_NoData_Setup
+                                                   DFU_Status_Out
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001BC4 - 08001BCF (0xc bytes), align: 2
+  Segment part 27.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_GetDeviceDescriptor
+                                   08001BC5 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001BD0 - 08001BDB (0xc bytes), align: 2
+  Segment part 28.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_GetConfigDescriptor
+                                   08001BD1 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001BDC - 08001BF3 (0x18 bytes), align: 2
+  Segment part 29.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_GetStringDescriptor
+                                   08001BDD 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001BF4 - 08001C01 (0xe bytes), align: 2
+  Segment part 30.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Get_Interface_Setting
+                                   08001BF5 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001C04 - 08001CC9 (0xc6 bytes), align: 2
+  Segment part 31.            Intra module refs:   DFU_Data_Setup
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UPLOAD                  08001C05 
+               stack 1 = 00000000 ( 00000024 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001CCC - 08001CCF (0x4 bytes), align: 2
+  Segment part 32.            Intra module refs:   DFU_NoData_Setup
+                                                   DFU_Status_Out
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001CD0 - 08001D0F (0x40 bytes), align: 2
+  Segment part 33.            Intra module refs:   DFU_Data_Setup
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DNLOAD                  08001CD1 
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001D10 - 08001D13 (0x4 bytes), align: 2
+  Segment part 34.            Intra module refs:   DNLOAD
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001D14 - 08001D25 (0x12 bytes), align: 2
+  Segment part 35.            Intra module refs:   DFU_Data_Setup
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GETSTATE                08001D15 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001D28 - 08001D2B (0x4 bytes), align: 2
+  Segment part 36.            Intra module refs:   DFU_Data_Setup
+                                                   DFU_NoData_Setup
+                                                   DNLOAD
+                                                   GETSTATE
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001D2C - 08001DC1 (0x96 bytes), align: 2
+  Segment part 37.            Intra module refs:   DFU_Data_Setup
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GETSTATUS               08001D2D 
+               stack 1 = 00000000 ( 00000018 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001DC4 - 08001DC7 (0x4 bytes), align: 2
+  Segment part 38.            Intra module refs:   DNLOAD
+                                                   GETSTATUS
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001DC8 - 08001DCB (0x4 bytes), align: 2
+  Segment part 39.            Intra module refs:   DNLOAD
+                                                   GETSTATUS
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001DCC - 08001DCF (0x4 bytes), align: 2
+  Segment part 40.            Intra module refs:   GETSTATUS
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001DD0 - 08001E03 (0x34 bytes), align: 2
+  Segment part 41.            Intra module refs:   DFU_Status_Out
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_write_crc           08001DD1 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001E04 - 08001E07 (0x4 bytes), align: 2
+  Segment part 42.            Intra module refs:   DFU_write_crc
+                                                   GETSTATUS
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001E08 - 08001E0B (0x4 bytes), align: 2
+  Segment part 43.            Intra module refs:   DFU_write_crc
+                                                   DNLOAD
+                                                   GETSTATE
+                                                   GETSTATUS
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001E0C - 08001E0F (0x4 bytes), align: 2
+  Segment part 44.            Intra module refs:   DFU_write_crc
+                                                   GETSTATUS
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 08002208 - 08002217 (0x10 bytes), align: 2
+  Segment part 4.             Intra module refs:   Segment part 3
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 080022AC - 080022AD (0x2 bytes), align: 0
+  Segment part 6.             Intra module refs:   Device_Table
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 08002218 - 08002247 (0x30 bytes), align: 2
+  Segment part 8.             Intra module refs:   Device_Property
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 08002248 - 0800226B (0x24 bytes), align: 2
+  Segment part 10.            Intra module refs:   User_Standard_Requests
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 0800226C - 08002273 (0x8 bytes), align: 2
+  Segment part 12.            Intra module refs:   Device_Descriptor
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 08002274 - 0800227B (0x8 bytes), align: 2
+  Segment part 14.            Intra module refs:   Config_Descriptor
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 0800227C - 080022AB (0x30 bytes), align: 2
+  Segment part 16.            Intra module refs:   DFU_String_Descriptor
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\usb_pwr.r79
+  PROGRAM MODULE, NAME : usb_pwr
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20000676 - 20000676 (0x1 bytes), align: 0
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           bDeviceState            20000676        DFU_init (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20000222 - 20000222 (0x1 bytes), align: 0
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           fSuspendEnabled         20000222        USB_Istr (usb_istr)
+    -------------------------------------------------------------------------
+DATA_Z
+  Relative segment, address: 20000677 - 20000678 (0x2 bytes), align: 0
+  Segment part 5.             Intra module refs:   Resume
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ResumeS                 20000677 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001E10 - 08001E37 (0x28 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PowerOn                 08001E11        DFU_init (usb_prop)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001E38 - 08001E3B (0x4 bytes), align: 2
+  Segment part 8.             Intra module refs:   PowerOn
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001E3C - 08001E55 (0x1a bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Suspend                 08001E3D        USB_Istr (usb_istr)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001E58 - 08001E73 (0x1c bytes), align: 2
+  Segment part 10.            Intra module refs:   Resume
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Resume_Init             08001E59 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001E74 - 08001EEF (0x7c bytes), align: 2
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Resume                  08001E75        USB_Istr (usb_istr)
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001EF0 - 08001EF3 (0x4 bytes), align: 2
+  Segment part 12.            Intra module refs:   PowerOn
+                                                   Resume
+                                                   Resume_Init
+                                                   Suspend
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 080022AE - 080022AE (0x1 bytes), align: 0
+  Segment part 4.             Intra module refs:   fSuspendEnabled
+
+    *************************************************************************
+
+  FILE NAME : D:\设计文档\123\DS0201示波器\Seeedstudio项目\DS0201_OpenSource\DS0201_DFU\project\EWARM\Debug_FLASH\Obj\usb_regs.r79
+  PROGRAM MODULE, NAME : usb_regs
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08001EF4 - 08001F15 (0x22 bytes), align: 2
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetEPTxStatus           08001EF5        Standard_ClearFeature (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F18 - 08001F1B (0x4 bytes), align: 2
+  Segment part 25.            Intra module refs:   SetEPTxStatus
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F1C - 08001F2F (0x14 bytes), align: 2
+  Segment part 26.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetEPRxValid            08001F1D        DFU_Reset (usb_prop)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F30 - 08001F33 (0x4 bytes), align: 2
+  Segment part 27.            Intra module refs:   SetEPRxValid
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F34 - 08001F3B (0x8 bytes), align: 2
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Clear_Status_Out        08001F35        DFU_Reset (usb_prop)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F3C - 08001F43 (0x8 bytes), align: 2
+  Segment part 31.            Intra module refs:   Clear_Status_Out
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            08001F3D 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F44 - 08001F47 (0x4 bytes), align: 2
+  Segment part 35.            Intra module refs:   Clear_Status_Out
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F48 - 08001F61 (0x1a bytes), align: 2
+  Segment part 42.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ClearDTOG_RX            08001F49        Standard_ClearFeature (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F64 - 08001F7D (0x1a bytes), align: 2
+  Segment part 43.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ClearDTOG_TX            08001F65        Standard_ClearFeature (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F80 - 08001F83 (0x4 bytes), align: 2
+  Segment part 46.            Intra module refs:   ClearDTOG_RX
+                                                   ClearDTOG_TX
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F84 - 08001F87 (0x4 bytes), align: 2
+  Segment part 48.            Intra module refs:   ClearDTOG_RX
+                                                   ClearDTOG_TX
+                                                   Clear_Status_Out
+                                                   SetEPRxValid
+                                                   SetEPTxStatus
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F88 - 08001F9B (0x14 bytes), align: 2
+  Segment part 51.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GetEPTxAddr             08001F89        DataStageIn (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001F9C - 08001FAF (0x14 bytes), align: 2
+  Segment part 52.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GetEPRxAddr             08001F9D        DataStageOut (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001FB0 - 08001FC1 (0x12 bytes), align: 2
+  Segment part 53.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetEPTxCount            08001FB1        DFU_Reset (usb_prop)
+                                                   DataStageIn (usb_core)
+                                                   DataStageOut (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001FC4 - 08001FC7 (0x4 bytes), align: 2
+  Segment part 54.            Intra module refs:   GetEPRxAddr
+                                                   GetEPTxAddr
+                                                   SetEPTxCount
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08001FC8 - 08001FFD (0x36 bytes), align: 2
+  Segment part 56.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetEPRxCount            08001FC9        DFU_Reset (usb_prop)
+                                                   Post0_Process (usb_core)
+                                                   Standard_ClearFeature (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08002000 - 08002003 (0x4 bytes), align: 2
+  Segment part 64.            Intra module refs:   GetEPTxAddr
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08002004 - 08002007 (0x4 bytes), align: 2
+  Segment part 66.            Intra module refs:   GetEPRxAddr
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08002008 - 0800200B (0x4 bytes), align: 2
+  Segment part 73.            Intra module refs:   SetEPRxCount
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0800200C - 0800200F (0x4 bytes), align: 2
+  Segment part 74.            Intra module refs:   SetEPRxCount
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08002010 - 08002013 (0x4 bytes), align: 2
+  Segment part 75.            Intra module refs:   SetEPTxCount
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08002014 - 0800201D (0xa bytes), align: 2
+  Segment part 80.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ByteSwap                08002015        Setup0_Process (usb_core)
+
+    *************************************************************************
+
+  FILE NAME : C:\Program Files\IAR Systems\Embedded Workbench 4.0 Evaluation\arm\LIB\dl7mptnnl8f.r79
+  LIBRARY MODULE, NAME : ?low_level_init
+
+  SEGMENTS IN THE MODULE
+  ======================
+ICODE
+  Relative segment, address: 080000EC - 080000EF (0x4 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __low_level_init        080000ED        __program_start (?CMAIN)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?segment_init
+
+  SEGMENTS IN THE MODULE
+  ======================
+ICODE
+  Relative segment, address: 080000F0 - 0800011F (0x30 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __segment_init          080000F1        __program_start (?CMAIN)
+               stack 1 = 00000000 ( 00000008 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__dbg_break
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08002020 - 08002021 (0x2 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __DebugBreak            08002021        __exit (?__exit)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08002024 - 08002035 (0x12 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __exit                  08002025        Segment part 5 (?_EXIT)
+               stack 1 = 00000000 ( 0000000C )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08002038 - 0800203B (0x4 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exit                    08002039        _main (?CMAIN)
+               stack 1 = 00000000 ( 00000004 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memcpy
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 0800203C - 08002051 (0x16 bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memcpy                  0800203D        __segment_init (?segment_init)
+               stack 1 = 00000000 ( 00000008 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memset
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08002054 - 08002065 (0x12 bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memset                  08002055        __segment_init (?segment_init)
+               stack 1 = 00000000 ( 00000008 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?CMAIN
+
+  SEGMENTS IN THE MODULE
+  ======================
+DIFUNCT
+  Relative segment, address: 08000150, align: 2
+  Segment part 0. ROOT.
+    -------------------------------------------------------------------------
+ICODE
+  Relative segment, address: 08000120 - 08000133 (0x14 bytes), align: 2
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __program_start         08000121        Absolute parts (?ABS_ENTRY_MOD)
+                                                   __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+ICODE
+  Relative segment, address: 08000134 - 0800014F (0x1c bytes), align: 2
+  Segment part 3.             Intra module refs:   __program_start
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _main                   0800013D 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?_EXIT
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 08002068, align: 2
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _exit                   08002069        _main (?CMAIN)
+                                                   exit (?exit)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 08002068 - 08002073 (0xc bytes), align: 2
+  Segment part 5.             Intra module refs:   _exit
+
+
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+INTVEC                             08000000 - 080000EB          EC   rel    2
+ICODE                              080000EC - 0800014F          64   rel    2
+DIFUNCT                                 08000150                     rel    2
+CODE                               08000150 - 08002073        1F24   rel    2
+INITTAB                            08002074 - 0800208B          18   rel    2
+DATA_ID                            0800208C - 080022AE         223   rel    2
+DATA_C                             080022B0 - 0800310B         E5C   rel    2
+DATA_I                             20000000 - 20000222         223   rel    2
+DATA_Z                             20000224 - 20000678         455   rel    2
+CSTACK                             2000067C - 20000A7B         400   rel    2
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 8 308 bytes of CODE  memory
+ 2 680 bytes of DATA  memory
+ 4 247 bytes of CONST memory
+
+Errors: none
+Warnings: none
+

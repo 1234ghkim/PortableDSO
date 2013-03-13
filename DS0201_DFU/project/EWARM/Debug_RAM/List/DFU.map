@@ -1,0 +1,2511 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V4.60I/386                                         #
+#                                                                              #
+#           Link time     =  18/Apr/2008  13:58:50                             #
+#           Target CPU    =  ARM                                               #
+#           List file     =  "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\List\DFU.map"                      #
+#           Output file 1 =  "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Exe\DFU.d79"                       #
+#                            Format: debug                                     #
+#                            UBROF version 10.0.2                              #
+#                            Using library modules for C-SPY (-rt)             #
+#           Output file 2 =  "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Exe\DFU.sim"                       #
+#                            Format: simple-code                               #
+#           Command line  =  "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\cortexm3_macro.r79"            #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\hw_config.r79"                 #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\main.r79"                      #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\spi_flash.r79"                 #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\stm32f10x_flash.r79"           #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\stm32f10x_gpio.r79"            #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\stm32f10x_it.r79"              #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\stm32f10x_lib.r79"             #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\stm32f10x_nvic.r79"            #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\stm32f10x_rcc.r79"             #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\stm32f10x_spi.r79"             #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\stm32f10x_vector.r79"          #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\usb_core.r79"                  #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\usb_desc.r79"                  #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\usb_init.r79"                  #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\usb_int.r79"                   #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\usb_istr.r79"                  #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\usb_mem.r79"                   #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\usb_prop.r79"                  #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\usb_pwr.r79"                   #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Obj\usb_regs.r79"                  #
+#                            -o                                                #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\Exe\DFU.d79"                       #
+#                            -l                                                #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\Debug_RAM\List\DFU.map"                      #
+#                            -xms                                              #
+#                            "-IC:\Program Files\IAR Systems\Embedded Workbenc #
+#                            h 4.0 Evaluation\ARM\LIB\"                        #
+#                            -f                                                #
+#                            "C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDe #
+#                            mo\USBLib\Demos\Device_Firmware_Upgrade\project\E #
+#                            WARM\lnkarm_ram.xcl"                              #
+#                            (-DRAMSTART=0x20000000 -DRAMEND=0x20004FFF        #
+#                            -DROMSTART=RAMSTART -DROMEND=RAMEND -carm         #
+#                            -Z(CODE)INTVEC=ROMSTART-ROMEND                    #
+#                            -Z(CODE)ICODE,DIFUNCT=ROMSTART-ROMEND             #
+#                            -Z(CODE)SWITAB=ROMSTART-ROMEND                    #
+#                            -Z(CODE)CODE=ROMSTART-ROMEND                      #
+#                            -Z(CONST)CODE_ID=ROMSTART-ROMEND                  #
+#                            -Z(CONST)INITTAB,DATA_ID,DATA_C=ROMSTART-ROMEND   #
+#                            -Z(CONST)CHECKSUM=ROMSTART-ROMEND                 #
+#                            -Z(DATA)DATA_I,DATA_Z,DATA_N=RAMSTART-RAMEND      #
+#                            -Z(DATA)CODE_I=RAMSTART-RAMEND -QCODE_I=CODE_ID   #
+#                            -D_CSTACK_SIZE=400 -D_HEAP_SIZE=100               #
+#                            -Z(DATA)CSTACK+_CSTACK_SIZE=RAMSTART-RAMEND       #
+#                            -Z(DATA)HEAP+_HEAP_SIZE=RAMSTART-RAMEND) -rt      #
+#                            "C:\Program Files\IAR Systems\Embedded Workbench  #
+#                            4.0 Evaluation\ARM\LIB\dl7mptnnl8f.r79"           #
+#                            "-Osimple-code=C:\Manley\EKBoard\EKSTM32F\USBDemo #
+#                            (8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upg #
+#                            rade\project\EWARM\Debug_RAM\Exe\DFU.sim"         #
+#                            -s __program_start                                #
+#                                                                              #
+#                        Copyright 1987-2007 IAR Systems. All rights reserved. #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at :           20000121  Relocatable, from module : ?CMAIN
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  StackAlign4            = USED
+  __cpu_mode             = __pcs__thumb
+  __data_model           = absolute
+  __dlib_file_descriptor = 1
+  __endian               = little
+  __rt_version           = 6
+
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+
+  DEFINED ABSOLUTE ENTRIES
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?ABS_ENTRY_MOD
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _HEAP_SIZE              00000100 
+           _CSTACK_SIZE            00000400 
+           ROMEND                  20004FFF 
+           ROMSTART                20000000 
+           RAMEND                  20004FFF 
+           RAMSTART                20000000 
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\cortexm3_macro.r79
+  PROGRAM MODULE, NAME : cortexm3_macro
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 20000150 - 200001BD (0x6e bytes), align: 2
+  Segment part 0. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __WFI                   20000151 
+           __WFE                   20000155 
+           __SEV                   20000159 
+           __ISB                   2000015D 
+           __DSB                   20000163 
+           __DMB                   20000169 
+           __SVC                   2000016F 
+           __MRS_CONTROL           20000173 
+           __MSR_CONTROL           20000179 
+           __MRS_PSP               20000183 
+           __MSR_PSP               20000189 
+           __MRS_MSP               2000018F 
+           __MSR_MSP               20000195        main (main)
+           __SETPRIMASK            2000019B 
+           __RESETPRIMASK          2000019F 
+           __SETFAULTMASK          200001A3 
+           __RESETFAULTMASK        200001A7 
+           __BASEPRICONFIG         200001AB 
+           __GetBASEPRI            200001B1 
+           __REV_HalfWord          200001B7 
+           __REV_Word              200001BB 
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\hw_config.r79
+  PROGRAM MODULE, NAME : hw_config
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 2000246C - 2000246C (0x1 bytes), align: 0
+  Segment part 2.             Intra module refs:   Set_System
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           HSEStartUpStatus        2000246C 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200001C0 - 2000025F (0xa0 bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Set_System              200001C1        main (main)
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000260 - 20000273 (0x14 bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Set_USBClock            20000261        main (main)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000274 - 20000275 (0x2 bytes), align: 2
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Enter_LowPowerMode      20000275        Suspend (usb_pwr)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000278 - 20000279 (0x2 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Leave_LowPowerMode      20000279        Resume_Init (usb_pwr)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000027C - 2000028F (0x14 bytes), align: 2
+  Segment part 7.             Intra module refs:   Reset_Device
+                                                   Set_System
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_Cable_Config        2000027D        PowerOn (usb_pwr)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000290 - 200002AF (0x20 bytes), align: 2
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Button_Config       20000291        main (main)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200002B0 - 200002B7 (0x8 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Button_Read         200002B1        main (main)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200002B8 - 200002BB (0x4 bytes), align: 2
+  Segment part 10.            Intra module refs:   DFU_Button_Config
+                                                   DFU_Button_Read
+                                                   Set_System
+                                                   USB_Cable_Config
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200002BC - 20000301 (0x46 bytes), align: 2
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_Interrupts_Config   200002BD        DFU_init (usb_prop)
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000304 - 20000313 (0x10 bytes), align: 2
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Reset_Device            20000305        DFU_write_crc (usb_prop)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000314 - 20000317 (0x4 bytes), align: 2
+  Segment part 13.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Internal_FLASH_WordWrite
+                                   20000315        DFU_Status_Out (usb_prop)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000318 - 2000031B (0x4 bytes), align: 2
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Internal_FLASH_PageErase
+                                   20000319        DFU_Status_Out (usb_prop)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+INITTAB
+  Relative segment, address: 20001BBC - 20001BC7 (0xc bytes), align: 2
+  Segment part 43. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?init?tab?DATA_Z        20001BBC 
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\main.r79
+  PROGRAM MODULE, NAME : main
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 2000201C - 2000202F (0x14 bytes), align: 2
+  Segment part 2.             Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DeviceState             20002024        Segment part 25 (usb_prop)
+                                                   Segment part 43 (usb_prop)
+           DeviceStatus            2000201C        DNLOAD (usb_prop)
+                                                   Segment part 32 (usb_prop)
+                                                   Segment part 44 (usb_prop)
+           JumpAddress             2000202C 
+           Jump_To_Application     20002028 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000031C - 2000036F (0x54 bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           main                    2000031D        _main (?CMAIN)
+               stack 1 = 00000000 ( 00000008 )
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\spi_flash.r79
+  PROGRAM MODULE, NAME : spi_flash
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 20000370 - 200003AB (0x3c bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_SectorErase   20000371        DFU_Status_Out (usb_prop)
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200003AC - 200003F9 (0x4e bytes), align: 2
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_PageWrite     200003AD        DFU_Status_Out (usb_prop)
+               stack 1 = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200003FC - 20000449 (0x4e bytes), align: 2
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_BufferRead    200003FD        UPLOAD (usb_prop)
+               stack 1 = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000044C - 2000047B (0x30 bytes), align: 2
+  Segment part 11.            Intra module refs:   SPI_FLASH_BufferRead
+                                                   SPI_FLASH_PageWrite
+                                                   SPI_FLASH_SectorErase
+                                                   SPI_FLASH_WaitForWriteEnd
+                                                   SPI_FLASH_WriteEnable
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_SendByte      2000044D 
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000047C - 2000047F (0x4 bytes), align: 2
+  Segment part 13.            Intra module refs:   SPI_FLASH_SendByte
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000480 - 2000049D (0x1e bytes), align: 2
+  Segment part 14.            Intra module refs:   SPI_FLASH_PageWrite
+                                                   SPI_FLASH_SectorErase
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_WriteEnable   20000481 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200004A0 - 200004C7 (0x28 bytes), align: 2
+  Segment part 15.            Intra module refs:   SPI_FLASH_PageWrite
+                                                   SPI_FLASH_SectorErase
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_FLASH_WaitForWriteEnd
+                                   200004A1 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200004C8 - 200004CB (0x4 bytes), align: 2
+  Segment part 16.            Intra module refs:   SPI_FLASH_BufferRead
+                                                   SPI_FLASH_PageWrite
+                                                   SPI_FLASH_SectorErase
+                                                   SPI_FLASH_WaitForWriteEnd
+                                                   SPI_FLASH_WriteEnable
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\stm32f10x_flash.r79
+  PROGRAM MODULE, NAME : stm32f10x_flash
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 200004CC - 200004D5 (0xa bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_SetLatency        200004CD        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200004D8 - 200004DB (0x4 bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_PrefetchBufferCmd
+                                   200004D9        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200004DC - 200004E9 (0xe bytes), align: 2
+  Segment part 5.             Intra module refs:   FLASH_PrefetchBufferCmd
+                                                   FLASH_SetLatency
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            200004DD 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200004EC - 200004EF (0x4 bytes), align: 2
+  Segment part 6.             Intra module refs:   FLASH_PrefetchBufferCmd
+                                                   FLASH_SetLatency
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200004F0 - 200004FF (0x10 bytes), align: 2
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_Unlock            200004F1        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000500 - 20000543 (0x44 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_ErasePage         20000501        Internal_FLASH_PageErase (hw_config)
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000544 - 2000058D (0x4a bytes), align: 2
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_ProgramWord       20000545        Internal_FLASH_WordWrite (hw_config)
+               stack 1 = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000590 - 20000593 (0x4 bytes), align: 2
+  Segment part 14.            Intra module refs:   FLASH_ProgramWord
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000594 - 20000597 (0x4 bytes), align: 2
+  Segment part 18.            Intra module refs:   FLASH_ErasePage
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000598 - 2000059B (0x4 bytes), align: 2
+  Segment part 19.            Intra module refs:   FLASH_Unlock
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000059C - 2000059F (0x4 bytes), align: 2
+  Segment part 20.            Intra module refs:   FLASH_Unlock
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200005A0 - 200005A3 (0x4 bytes), align: 2
+  Segment part 27.            Intra module refs:   FLASH_ErasePage
+                                                   FLASH_ProgramWord
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200005A4 - 200005C7 (0x24 bytes), align: 2
+  Segment part 39.            Intra module refs:   FLASH_WaitForLastOperation
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_GetStatus         200005A5 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200005C8 - 200005CB (0x4 bytes), align: 2
+  Segment part 40.            Intra module refs:   FLASH_GetStatus
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200005CC - 200005FB (0x30 bytes), align: 2
+  Segment part 41.            Intra module refs:   FLASH_ErasePage
+                                                   FLASH_ProgramWord
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_WaitForLastOperation
+                                   200005CD 
+               stack 1 = 00000000 ( 0000000C )
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\stm32f10x_gpio.r79
+  PROGRAM MODULE, NAME : stm32f10x_gpio
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 200005FC - 20000697 (0x9c bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_Init               200005FD        DFU_Button_Config (hw_config)
+                                                   Set_System (hw_config)
+               stack 1 = 00000000 ( 0000001C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000698 - 200006A7 (0x10 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_ReadInputDataBit   20000699        DFU_Button_Read (hw_config)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006A8 - 200006AB (0x4 bytes), align: 2
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_SetBits            200006A9        SPI_FLASH_BufferRead (spi_flash)
+                                                   SPI_FLASH_PageWrite (spi_flash)
+                                                   SPI_FLASH_SectorErase (spi_flash)
+                                                   SPI_FLASH_WaitForWriteEnd (spi_flash)
+                                                   SPI_FLASH_WriteEnable (spi_flash)
+                                                   USB_Cable_Config (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006AC - 200006AF (0x4 bytes), align: 2
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_ResetBits          200006AD        SPI_FLASH_BufferRead (spi_flash)
+                                                   SPI_FLASH_PageWrite (spi_flash)
+                                                   SPI_FLASH_SectorErase (spi_flash)
+                                                   SPI_FLASH_WaitForWriteEnd (spi_flash)
+                                                   SPI_FLASH_WriteEnable (spi_flash)
+                                                   USB_Cable_Config (hw_config)
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\stm32f10x_it.r79
+  PROGRAM MODULE, NAME : stm32f10x_it
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 200006B0 - 200006B1 (0x2 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NMIException            200006B1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006B4 - 200006B5 (0x2 bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           HardFaultException      200006B5        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006B8 - 200006B9 (0x2 bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MemManageException      200006B9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006BC - 200006BD (0x2 bytes), align: 2
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           BusFaultException       200006BD        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006C0 - 200006C1 (0x2 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UsageFaultException     200006C1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006C4 - 200006C5 (0x2 bytes), align: 2
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DebugMonitor            200006C5        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006C8 - 200006C9 (0x2 bytes), align: 2
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SVCHandler              200006C9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006CC - 200006CD (0x2 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PendSVC                 200006CD        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006D0 - 200006D1 (0x2 bytes), align: 2
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SysTickHandler          200006D1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006D4 - 200006D5 (0x2 bytes), align: 2
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           WWDG_IRQHandler         200006D5        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006D8 - 200006D9 (0x2 bytes), align: 2
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PVD_IRQHandler          200006D9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006DC - 200006DD (0x2 bytes), align: 2
+  Segment part 13.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TAMPER_IRQHandler       200006DD        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006E0 - 200006E1 (0x2 bytes), align: 2
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RTC_IRQHandler          200006E1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006E4 - 200006E5 (0x2 bytes), align: 2
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FLASH_IRQHandler        200006E5        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006E8 - 200006E9 (0x2 bytes), align: 2
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_IRQHandler          200006E9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006EC - 200006ED (0x2 bytes), align: 2
+  Segment part 17.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI0_IRQHandler        200006ED        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006F0 - 200006F1 (0x2 bytes), align: 2
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI1_IRQHandler        200006F1        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006F4 - 200006F5 (0x2 bytes), align: 2
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI2_IRQHandler        200006F5        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006F8 - 200006F9 (0x2 bytes), align: 2
+  Segment part 20.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI3_IRQHandler        200006F9        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200006FC - 200006FD (0x2 bytes), align: 2
+  Segment part 21.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI4_IRQHandler        200006FD        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000700 - 20000701 (0x2 bytes), align: 2
+  Segment part 22.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel1_IRQHandler
+                                   20000701        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000704 - 20000705 (0x2 bytes), align: 2
+  Segment part 23.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel2_IRQHandler
+                                   20000705        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000708 - 20000709 (0x2 bytes), align: 2
+  Segment part 24.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel3_IRQHandler
+                                   20000709        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000070C - 2000070D (0x2 bytes), align: 2
+  Segment part 25.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel4_IRQHandler
+                                   2000070D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000710 - 20000711 (0x2 bytes), align: 2
+  Segment part 26.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel5_IRQHandler
+                                   20000711        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000714 - 20000715 (0x2 bytes), align: 2
+  Segment part 27.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel6_IRQHandler
+                                   20000715        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000718 - 20000719 (0x2 bytes), align: 2
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DMAChannel7_IRQHandler
+                                   20000719        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000071C - 2000071D (0x2 bytes), align: 2
+  Segment part 29.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ADC_IRQHandler          2000071D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000720 - 20000721 (0x2 bytes), align: 2
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_HP_CAN_TX_IRQHandler
+                                   20000721        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000724 - 20000727 (0x4 bytes), align: 2
+  Segment part 31.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_LP_CAN_RX0_IRQHandler
+                                   20000725        __vector_table (stm32f10x_vector)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000728 - 20000729 (0x2 bytes), align: 2
+  Segment part 32.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CAN_RX1_IRQHandler      20000729        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000072C - 2000072D (0x2 bytes), align: 2
+  Segment part 33.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CAN_SCE_IRQHandler      2000072D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000730 - 20000731 (0x2 bytes), align: 2
+  Segment part 34.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI9_5_IRQHandler      20000731        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000734 - 20000735 (0x2 bytes), align: 2
+  Segment part 35.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM1_BRK_IRQHandler     20000735        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000738 - 20000739 (0x2 bytes), align: 2
+  Segment part 36.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM1_UP_IRQHandler      20000739        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000073C - 2000073D (0x2 bytes), align: 2
+  Segment part 37.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM1_TRG_COM_IRQHandler
+                                   2000073D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000740 - 20000741 (0x2 bytes), align: 2
+  Segment part 38.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM1_CC_IRQHandler      20000741        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000744 - 20000745 (0x2 bytes), align: 2
+  Segment part 39.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM2_IRQHandler         20000745        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000748 - 20000749 (0x2 bytes), align: 2
+  Segment part 40.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM3_IRQHandler         20000749        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000074C - 2000074D (0x2 bytes), align: 2
+  Segment part 41.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIM4_IRQHandler         2000074D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000750 - 20000751 (0x2 bytes), align: 2
+  Segment part 42.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C1_EV_IRQHandler      20000751        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000754 - 20000755 (0x2 bytes), align: 2
+  Segment part 43.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C1_ER_IRQHandler      20000755        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000758 - 20000759 (0x2 bytes), align: 2
+  Segment part 44.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C2_EV_IRQHandler      20000759        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000075C - 2000075D (0x2 bytes), align: 2
+  Segment part 45.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C2_ER_IRQHandler      2000075D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000760 - 20000761 (0x2 bytes), align: 2
+  Segment part 46.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI1_IRQHandler         20000761        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000764 - 20000765 (0x2 bytes), align: 2
+  Segment part 47.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI2_IRQHandler         20000765        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000768 - 20000769 (0x2 bytes), align: 2
+  Segment part 48.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USART1_IRQHandler       20000769        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000076C - 2000076D (0x2 bytes), align: 2
+  Segment part 49.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USART2_IRQHandler       2000076D        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000770 - 20000771 (0x2 bytes), align: 2
+  Segment part 50.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USART3_IRQHandler       20000771        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000774 - 20000775 (0x2 bytes), align: 2
+  Segment part 51.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EXTI15_10_IRQHandler    20000775        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000778 - 20000779 (0x2 bytes), align: 2
+  Segment part 52.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RTCAlarm_IRQHandler     20000779        __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000077C - 2000077D (0x2 bytes), align: 2
+  Segment part 53.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USBWakeUp_IRQHandler    2000077D        __vector_table (stm32f10x_vector)
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\stm32f10x_lib.r79
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\stm32f10x_nvic.r79
+  PROGRAM MODULE, NAME : stm32f10x_nvic
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 20000780 - 20000789 (0xa bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NVIC_PriorityGroupConfig
+                                   20000781        USB_Interrupts_Config (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000078C - 2000078F (0x4 bytes), align: 2
+  Segment part 5.             Intra module refs:   NVIC_PriorityGroupConfig
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000790 - 20000807 (0x78 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NVIC_Init               20000791        USB_Interrupts_Config (hw_config)
+               stack 1 = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000808 - 2000080B (0x4 bytes), align: 2
+  Segment part 7.             Intra module refs:   NVIC_Init
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000080C - 2000080F (0x4 bytes), align: 2
+  Segment part 8.             Intra module refs:   NVIC_Init
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000810 - 2000081F (0x10 bytes), align: 2
+  Segment part 24.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NVIC_SetVectorTable     20000811        USB_Interrupts_Config (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000820 - 20000823 (0x4 bytes), align: 2
+  Segment part 25.            Intra module refs:   NVIC_SetVectorTable
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000824 - 2000082F (0xc bytes), align: 2
+  Segment part 26.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NVIC_GenerateSystemReset
+                                   20000825        Reset_Device (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000830 - 20000833 (0x4 bytes), align: 2
+  Segment part 32.            Intra module refs:   NVIC_GenerateSystemReset
+                                                   NVIC_Init
+                                                   NVIC_PriorityGroupConfig
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\stm32f10x_rcc.r79
+  PROGRAM MODULE, NAME : stm32f10x_rcc
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20002030 - 20002037 (0x8 bytes), align: 2
+  Segment part 3.             Intra module refs:   RCC_WaitForHSEStartUp
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           HSEStatus               20002030 
+           StartUpCounter          20002034 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000834 - 2000088B (0x58 bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_DeInit              20000835        Set_System (hw_config)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000088C - 200008C3 (0x38 bytes), align: 2
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_HSEConfig           2000088D        Set_System (hw_config)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200008C4 - 200008EF (0x2c bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_WaitForHSEStartUp   200008C5        Set_System (hw_config)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200008F0 - 20000903 (0x14 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_PLLConfig           200008F1        Set_System (hw_config)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000904 - 2000090F (0xc bytes), align: 2
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_PLLCmd              20000905        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000910 - 20000915 (0x6 bytes), align: 2
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_SYSCLKConfig        20000911        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000918 - 20000921 (0xa bytes), align: 2
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_GetSYSCLKSource     20000919        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000924 - 20000927 (0x4 bytes), align: 2
+  Segment part 13.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_HCLKConfig          20000925        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000928 - 20000931 (0xa bytes), align: 2
+  Segment part 14.            Intra module refs:   RCC_HCLKConfig
+                                                   RCC_SYSCLKConfig
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            20000929 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000934 - 2000093B (0x8 bytes), align: 2
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_PCLK1Config         20000935        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000093C - 2000094D (0x12 bytes), align: 2
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_PCLK2Config         2000093D        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000950 - 2000095B (0xc bytes), align: 2
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_USBCLKConfig        20000951        Set_USBClock (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000095C - 20000965 (0xa bytes), align: 2
+  Segment part 20.            Intra module refs:   RCC_PCLK1Config
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            2000095D 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000968 - 2000096B (0x4 bytes), align: 2
+  Segment part 26.            Intra module refs:   RCC_DeInit
+                                                   RCC_GetSYSCLKSource
+                                                   RCC_HCLKConfig
+                                                   RCC_PCLK1Config
+                                                   RCC_PCLK2Config
+                                                   RCC_PLLConfig
+                                                   RCC_SYSCLKConfig
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000096C - 2000097B (0x10 bytes), align: 2
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_APB2PeriphClockCmd
+                                   2000096D        DFU_Button_Config (hw_config)
+                                                   Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000097C - 20000987 (0xc bytes), align: 2
+  Segment part 29.            Intra module refs:   RCC_APB1PeriphClockCmd
+                                                   RCC_APB2PeriphClockCmd
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine2            2000097D 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000988 - 2000099B (0x14 bytes), align: 2
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_APB1PeriphClockCmd
+                                   20000989        Set_USBClock (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000099C - 2000099F (0x4 bytes), align: 2
+  Segment part 32.            Intra module refs:   RCC_DeInit
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200009A0 - 200009CB (0x2c bytes), align: 2
+  Segment part 37.            Intra module refs:   RCC_WaitForHSEStartUp
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RCC_GetFlagStatus       200009A1        Set_System (hw_config)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200009CC - 200009CF (0x4 bytes), align: 2
+  Segment part 38.            Intra module refs:   RCC_GetFlagStatus
+                                                   RCC_HSEConfig
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200009D0 - 200009D3 (0x4 bytes), align: 2
+  Segment part 39.            Intra module refs:   RCC_GetFlagStatus
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200009D4 - 200009D7 (0x4 bytes), align: 2
+  Segment part 41.            Intra module refs:   RCC_GetFlagStatus
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200009D8 - 200009DB (0x4 bytes), align: 2
+  Segment part 43.            Intra module refs:   RCC_DeInit
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\stm32f10x_spi.r79
+  PROGRAM MODULE, NAME : stm32f10x_spi
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 200009DC - 200009DF (0x4 bytes), align: 2
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_SendData            200009DD        SPI_FLASH_SendByte (spi_flash)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200009E0 - 200009E3 (0x4 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_ReceiveData         200009E1        SPI_FLASH_SendByte (spi_flash)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200009E4 - 200009F3 (0x10 bytes), align: 2
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPI_GetFlagStatus       200009E5        SPI_FLASH_SendByte (spi_flash)
+               stack 1 = 00000000 ( 00000004 )
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\stm32f10x_vector.r79
+  PROGRAM MODULE, NAME : stm32f10x_vector
+
+  SEGMENTS IN THE MODULE
+  ======================
+INTVEC
+  Relative segment, address: 20000000 - 200000EB (0xec bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __vector_table          20000000        __program_start (?CMAIN)
+    -------------------------------------------------------------------------
+CSTACK
+  Relative segment, address: 20002474, align: 2
+  Segment part 1.
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\usb_core.r79
+  PROGRAM MODULE, NAME : usb_core
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20002460 - 20002461 (0x2 bytes), align: 1
+  Segment part 2.             Intra module refs:   Standard_GetStatus
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           StatusInfo              20002460 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200009F4 - 20000A09 (0x16 bytes), align: 2
+  Segment part 3.             Intra module refs:   Data_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_GetConfiguration
+                                   200009F5 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000A0C - 20000A3B (0x30 bytes), align: 2
+  Segment part 4.             Intra module refs:   NoData_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_SetConfiguration
+                                   20000A0D 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000A3C - 20000A51 (0x16 bytes), align: 2
+  Segment part 5.             Intra module refs:   Data_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_GetInterface   20000A3D 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000A54 - 20000A5D (0xa bytes), align: 2
+  Segment part 6.             Intra module refs:   Standard_GetConfiguration
+                                                   Standard_GetInterface
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            20000A55 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000A60 - 20000A9D (0x3e bytes), align: 2
+  Segment part 7.             Intra module refs:   NoData_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_SetInterface   20000A61 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000AA0 - 20000AA3 (0x4 bytes), align: 2
+  Segment part 8.             Intra module refs:   Standard_SetInterface
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000AA4 - 20000B37 (0x94 bytes), align: 2
+  Segment part 9.             Intra module refs:   Data_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_GetStatus      20000AA5 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000B38 - 20000BF9 (0xc2 bytes), align: 2
+  Segment part 10.            Intra module refs:   NoData_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_ClearFeature   20000B39 
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000BFC - 20000BFF (0x4 bytes), align: 2
+  Segment part 11.            Intra module refs:   Standard_ClearFeature
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000C00 - 20000C6F (0x70 bytes), align: 2
+  Segment part 12.            Intra module refs:   NoData_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_SetEndPointFeature
+                                   20000C01 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000C70 - 20000C73 (0x4 bytes), align: 2
+  Segment part 13.            Intra module refs:   Standard_ClearFeature
+                                                   Standard_SetEndPointFeature
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000C74 - 20000C77 (0x4 bytes), align: 2
+  Segment part 14.            Intra module refs:   Standard_ClearFeature
+                                                   Standard_GetStatus
+                                                   Standard_SetEndPointFeature
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000C78 - 20000C7B (0x4 bytes), align: 2
+  Segment part 15.            Intra module refs:   Standard_ClearFeature
+                                                   Standard_SetEndPointFeature
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000C7C - 20000C95 (0x1a bytes), align: 2
+  Segment part 16.            Intra module refs:   NoData_Setup0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_SetDeviceFeature
+                                   20000C7D 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000C98 - 20000C9B (0x4 bytes), align: 2
+  Segment part 17.            Intra module refs:   Standard_ClearFeature
+                                                   Standard_GetConfiguration
+                                                   Standard_GetInterface
+                                                   Standard_GetStatus
+                                                   Standard_SetConfiguration
+                                                   Standard_SetDeviceFeature
+                                                   Standard_SetEndPointFeature
+                                                   Standard_SetInterface
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000C9C - 20000CB3 (0x18 bytes), align: 2
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Standard_GetDescriptorData
+                                   20000C9D        DFU_GetConfigDescriptor (usb_prop)
+                                                   DFU_GetDeviceDescriptor (usb_prop)
+                                                   DFU_GetStringDescriptor (usb_prop)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000CB4 - 20000CB7 (0x4 bytes), align: 2
+  Segment part 19.            Intra module refs:   Standard_ClearFeature
+                                                   Standard_GetConfiguration
+                                                   Standard_GetDescriptorData
+                                                   Standard_GetInterface
+                                                   Standard_GetStatus
+                                                   Standard_SetConfiguration
+                                                   Standard_SetDeviceFeature
+                                                   Standard_SetEndPointFeature
+                                                   Standard_SetInterface
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000CB8 - 20000D39 (0x82 bytes), align: 2
+  Segment part 20.            Intra module refs:   Out0_Process
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           DataStageOut            20000CB9 
+               stack 1 = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000D3C - 20000DAF (0x74 bytes), align: 2
+  Segment part 21.            Intra module refs:   Data_Setup0
+                                                   In0_Process
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           DataStageIn             20000D3D 
+               stack 1 = 00000000 ( 00000018 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000DB0 - 20000E65 (0xb6 bytes), align: 2
+  Segment part 22.            Intra module refs:   Setup0_Process
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           NoData_Setup0           20000DB1 
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000E68 - 20000E6B (0x4 bytes), align: 2
+  Segment part 23.            Intra module refs:   DataStageIn
+                                                   DataStageOut
+                                                   NoData_Setup0
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000E6C - 20000E6F (0x4 bytes), align: 2
+  Segment part 24.            Intra module refs:   DataStageOut
+                                                   NoData_Setup0
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000E70 - 20000E73 (0x4 bytes), align: 2
+  Segment part 25.            Intra module refs:   DataStageOut
+                                                   NoData_Setup0
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000E74 - 20000E77 (0x4 bytes), align: 2
+  Segment part 26.            Intra module refs:   DataStageIn
+                                                   DataStageOut
+                                                   NoData_Setup0
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000E78 - 20000FD3 (0x15c bytes), align: 2
+  Segment part 27.            Intra module refs:   Setup0_Process
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           Data_Setup0             20000E79 
+               stack 1 = 00000000 ( 0000001C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000FD4 - 20000FD7 (0x4 bytes), align: 2
+  Segment part 28.            Intra module refs:   DataStageIn
+                                                   DataStageOut
+                                                   Data_Setup0
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20000FD8 - 2000104B (0x74 bytes), align: 2
+  Segment part 29.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Setup0_Process          20000FD9        CTR_LP (usb_int)
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000104C - 2000104F (0x4 bytes), align: 2
+  Segment part 30.            Intra module refs:   Setup0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001050 - 2000109B (0x4c bytes), align: 2
+  Segment part 31.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           In0_Process             20001051        CTR_LP (usb_int)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000109C - 2000109F (0x4 bytes), align: 2
+  Segment part 32.            Intra module refs:   In0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200010A0 - 200010CF (0x30 bytes), align: 2
+  Segment part 33.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Out0_Process            200010A1        CTR_LP (usb_int)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200010D0 - 20001101 (0x32 bytes), align: 2
+  Segment part 34.            Intra module refs:   In0_Process
+                                                   Out0_Process
+                                                   Setup0_Process
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Post0_Process           200010D1 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001104 - 20001107 (0x4 bytes), align: 2
+  Segment part 35.            Intra module refs:   Data_Setup0
+                                                   In0_Process
+                                                   NoData_Setup0
+                                                   Out0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001108 - 2000110B (0x4 bytes), align: 2
+  Segment part 36.            Intra module refs:   Post0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000110C - 2000110F (0x4 bytes), align: 2
+  Segment part 37.            Intra module refs:   Data_Setup0
+                                                   In0_Process
+                                                   Out0_Process
+                                                   Post0_Process
+                                                   Setup0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001110 - 20001113 (0x4 bytes), align: 2
+  Segment part 38.            Intra module refs:   Post0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001114 - 20001117 (0x4 bytes), align: 2
+  Segment part 39.            Intra module refs:   Post0_Process
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001118 - 2000114B (0x34 bytes), align: 2
+  Segment part 40.            Intra module refs:   In0_Process
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetDeviceAddress        20001119        DFU_Reset (usb_prop)
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000114C - 2000114F (0x4 bytes), align: 2
+  Segment part 41.            Intra module refs:   Data_Setup0
+                                                   SetDeviceAddress
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001150 - 20001153 (0x4 bytes), align: 2
+  Segment part 42.            Intra module refs:   Data_Setup0
+                                                   SetDeviceAddress
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001154 - 20001155 (0x2 bytes), align: 2
+  Segment part 43.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           NOP_Process             20001155        DFU_init (usb_prop)
+                                                   Segment part 10 (usb_prop)
+                                                   Segment part 4 (usb_istr)
+                                                   Segment part 6 (usb_istr)
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\usb_desc.r79
+  PROGRAM MODULE, NAME : usb_desc
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_I
+  Relative segment, address: 20001DF8 - 20001E0B (0x14 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_DeviceDescriptor    20001DF8        Segment part 12 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001E0C - 20001E2F (0x24 bytes), align: 2
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_ConfigDescriptor    20001E0C        DFU_init (usb_prop)
+                                                   Segment part 14 (usb_prop)
+                                                   Segment part 42 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001E30 - 20001E33 (0x4 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringLangId        20001E30        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001E34 - 20001E5B (0x28 bytes), align: 2
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringVendor        20001E34        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001E5C - 20001E6F (0x14 bytes), align: 2
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringProduct       20001E5C        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001E70 - 20001E77 (0x8 bytes), align: 2
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringSerial        20001E70        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001E78 - 20001ED7 (0x60 bytes), align: 2
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringInterface0    20001E78        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001ED8 - 20001F3B (0x64 bytes), align: 2
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_StringInterface1    20001ED8        Segment part 16 (usb_prop)
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001BD4 - 20001BE7 (0x14 bytes), align: 2
+  Segment part 3.             Intra module refs:   DFU_DeviceDescriptor
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001BE8 - 20001C0B (0x24 bytes), align: 2
+  Segment part 5.             Intra module refs:   DFU_ConfigDescriptor
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001C0C - 20001C0F (0x4 bytes), align: 2
+  Segment part 7.             Intra module refs:   DFU_StringLangId
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001C10 - 20001C37 (0x28 bytes), align: 2
+  Segment part 9.             Intra module refs:   DFU_StringVendor
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001C38 - 20001C4B (0x14 bytes), align: 2
+  Segment part 11.            Intra module refs:   DFU_StringProduct
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001C4C - 20001C53 (0x8 bytes), align: 2
+  Segment part 13.            Intra module refs:   DFU_StringSerial
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001C54 - 20001CB3 (0x60 bytes), align: 2
+  Segment part 15.            Intra module refs:   DFU_StringInterface0
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001CB4 - 20001D17 (0x64 bytes), align: 2
+  Segment part 17.            Intra module refs:   DFU_StringInterface1
+    -------------------------------------------------------------------------
+INITTAB
+  Relative segment, address: 20001BC8 - 20001BD3 (0xc bytes), align: 2
+  Segment part 19. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?init?tab?DATA_I        20001BC8 
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\usb_init.r79
+  PROGRAM MODULE, NAME : usb_init
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 2000246D - 2000246D (0x1 bytes), align: 0
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           EPindex                 2000246D        Segment part 7 (usb_int)
+    -------------------------------------------------------------------------
+DATA_Z
+  Relative segment, address: 20002038 - 2000205F (0x28 bytes), align: 2
+  Segment part 3.             Intra module refs:   USB_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Device_Info             20002038        DFU_GetStringDescriptor (usb_prop)
+                                                   DFU_Reset (usb_prop)
+                                                   DFU_Status_Out (usb_prop)
+                                                   Segment part 18 (usb_prop)
+                                                   Segment part 34 (usb_prop)
+           pInformation            20002054        Segment part 19 (usb_core)
+                                                   Segment part 23 (usb_core)
+                                                   Segment part 36 (usb_prop)
+                                                   Segment part 37 (usb_core)
+                                                   Segment part 40 (usb_prop)
+           pProperty               20002058        Segment part 35 (usb_core)
+                                                   Segment part 8 (usb_core)
+           pUser_Standard_Requests
+                                   2000205C        Segment part 17 (usb_core)
+                                                   Segment part 32 (usb_core)
+    -------------------------------------------------------------------------
+DATA_Z
+  Relative segment, address: 20002462 - 20002463 (0x2 bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           wInterrupt_Mask         20002462        DFU_init (usb_prop)
+                                                   PowerOn (usb_pwr)
+                                                   USB_Istr (usb_istr)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001158 - 20001177 (0x20 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_Init                20001159        main (main)
+               stack 1 = 00000000 ( 00000004 )
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\usb_int.r79
+  PROGRAM MODULE, NAME : usb_int
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20002464 - 20002467 (0x4 bytes), align: 1
+  Segment part 2.             Intra module refs:   CTR_LP
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SaveRState              20002464        Segment part 28 (usb_core)
+                                                   Segment part 38 (usb_core)
+           SaveTState              20002466        Segment part 26 (usb_core)
+                                                   Segment part 39 (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001178 - 200012BB (0x144 bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CTR_LP                  20001179        USB_Istr (usb_istr)
+               stack 1 = 00000000 ( 00000024 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200012BC - 200012BF (0x4 bytes), align: 2
+  Segment part 5.             Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200012C0 - 200012C3 (0x4 bytes), align: 2
+  Segment part 6.             Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200012C4 - 200012C7 (0x4 bytes), align: 2
+  Segment part 7.             Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200012C8 - 200012CB (0x4 bytes), align: 2
+  Segment part 8.             Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200012CC - 200012CF (0x4 bytes), align: 2
+  Segment part 9.             Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200012D0 - 200012D3 (0x4 bytes), align: 2
+  Segment part 10.            Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200012D4 - 200012D7 (0x4 bytes), align: 2
+  Segment part 11.            Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200012D8 - 200012DB (0x4 bytes), align: 2
+  Segment part 12.            Intra module refs:   CTR_LP
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200012DC - 200012DF (0x4 bytes), align: 2
+  Segment part 13.            Intra module refs:   CTR_LP
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\usb_istr.r79
+  PROGRAM MODULE, NAME : usb_istr
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20002468 - 2000246B (0x4 bytes), align: 1
+  Segment part 2.             Intra module refs:   USB_Istr
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           bIntPackSOF             20002468 
+           wIstr                   2000246A        Segment part 5 (usb_int)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001F3C - 20001F57 (0x1c bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           pEpInt_IN               20001F3C        Segment part 13 (usb_int)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001F58 - 20001F73 (0x1c bytes), align: 2
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           pEpInt_OUT              20001F58        Segment part 10 (usb_int)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200012E0 - 2000139F (0xc0 bytes), align: 2
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USB_Istr                200012E1        USB_LP_CAN_RX0_IRQHandler (stm32f10x_it)
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001D18 - 20001D33 (0x1c bytes), align: 2
+  Segment part 4.             Intra module refs:   pEpInt_IN
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001D34 - 20001D4F (0x1c bytes), align: 2
+  Segment part 6.             Intra module refs:   pEpInt_OUT
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\usb_mem.r79
+  PROGRAM MODULE, NAME : usb_mem
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 200013A0 - 200013C3 (0x24 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UserToPMABufferCopy     200013A1        DataStageIn (usb_core)
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200013C4 - 200013DD (0x1a bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PMAToUserBufferCopy     200013C5        DataStageOut (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200013E0 - 200013E3 (0x4 bytes), align: 2
+  Segment part 4.             Intra module refs:   PMAToUserBufferCopy
+                                                   UserToPMABufferCopy
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\usb_prop.r79
+  PROGRAM MODULE, NAME : usb_prop
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 20002060 - 2000245F (0x400 bytes), align: 2
+  Segment part 2.             Intra module refs:   Segment part 22
+                                                   Segment part 39
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Load_Buffer             20002060 
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001F74 - 20001F83 (0x10 bytes), align: 2
+  Segment part 3.             Intra module refs:   DFU_write_crc
+                                                   Segment part 26
+                                                   Segment part 38
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Manifest_State          20001F7C 
+           Pointer                 20001F80 
+           wBlockNum               20001F74 
+           wlength                 20001F78 
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20002018 - 20002019 (0x2 bytes), align: 0
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Device_Table            20002018        Segment part 13 (usb_core)
+                                                   Segment part 41 (usb_core)
+                                                   Standard_SetConfiguration (usb_core)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001F84 - 20001FB3 (0x30 bytes), align: 2
+  Segment part 7.             Intra module refs:   DFU_Reset
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Device_Property         20001F84        Segment part 11 (usb_core)
+                                                   Segment part 36 (usb_core)
+                                                   USB_Init (usb_init)
+                                                   USB_Istr (usb_istr)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001FB4 - 20001FD7 (0x24 bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           User_Standard_Requests
+                                   20001FB4        USB_Init (usb_init)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001FD8 - 20001FDF (0x8 bytes), align: 2
+  Segment part 11.            Intra module refs:   DFU_GetDeviceDescriptor
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Device_Descriptor       20001FD8 
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001FE0 - 20001FE7 (0x8 bytes), align: 2
+  Segment part 13.            Intra module refs:   DFU_GetConfigDescriptor
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Config_Descriptor       20001FE0 
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 20001FE8 - 20002017 (0x30 bytes), align: 2
+  Segment part 15.            Intra module refs:   DFU_GetStringDescriptor
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_String_Descriptor   20001FE8 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200013E4 - 20001433 (0x50 bytes), align: 2
+  Segment part 17.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_init                200013E5 
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001434 - 20001437 (0x4 bytes), align: 2
+  Segment part 18.            Intra module refs:   DFU_init
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001438 - 200014BF (0x88 bytes), align: 2
+  Segment part 19.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Reset               20001439 
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200014C0 - 200014C1 (0x2 bytes), align: 2
+  Segment part 20.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Status_In           200014C1 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200014C4 - 200015EF (0x12c bytes), align: 2
+  Segment part 21.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Status_Out          200014C5 
+               stack 1 = 00000000 ( 00000020 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200015F0 - 200015F3 (0x4 bytes), align: 2
+  Segment part 22.            Intra module refs:   DFU_Status_Out
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200015F4 - 2000165F (0x6c bytes), align: 2
+  Segment part 23.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Data_Setup          200015F5 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001660 - 20001703 (0xa4 bytes), align: 2
+  Segment part 24.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_NoData_Setup        20001661 
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001704 - 20001707 (0x4 bytes), align: 2
+  Segment part 25.            Intra module refs:   DFU_Data_Setup
+                                                   DFU_NoData_Setup
+                                                   DFU_Status_Out
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001708 - 2000170B (0x4 bytes), align: 2
+  Segment part 26.            Intra module refs:   DFU_NoData_Setup
+                                                   DFU_Status_Out
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000170C - 20001717 (0xc bytes), align: 2
+  Segment part 27.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_GetDeviceDescriptor
+                                   2000170D 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001718 - 20001723 (0xc bytes), align: 2
+  Segment part 28.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_GetConfigDescriptor
+                                   20001719 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001724 - 2000173B (0x18 bytes), align: 2
+  Segment part 29.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_GetStringDescriptor
+                                   20001725 
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000173C - 20001749 (0xe bytes), align: 2
+  Segment part 30.            Intra module refs:   Segment part 8
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_Get_Interface_Setting
+                                   2000173D 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000174C - 20001811 (0xc6 bytes), align: 2
+  Segment part 31.            Intra module refs:   DFU_Data_Setup
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UPLOAD                  2000174D 
+               stack 1 = 00000000 ( 00000024 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001814 - 20001817 (0x4 bytes), align: 2
+  Segment part 32.            Intra module refs:   DFU_NoData_Setup
+                                                   DFU_Status_Out
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001818 - 20001857 (0x40 bytes), align: 2
+  Segment part 33.            Intra module refs:   DFU_Data_Setup
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DNLOAD                  20001819 
+               stack 1 = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001858 - 2000185B (0x4 bytes), align: 2
+  Segment part 34.            Intra module refs:   DNLOAD
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000185C - 2000186D (0x12 bytes), align: 2
+  Segment part 35.            Intra module refs:   DFU_Data_Setup
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GETSTATE                2000185D 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001870 - 20001873 (0x4 bytes), align: 2
+  Segment part 36.            Intra module refs:   DFU_Data_Setup
+                                                   DFU_NoData_Setup
+                                                   DNLOAD
+                                                   GETSTATE
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001874 - 20001909 (0x96 bytes), align: 2
+  Segment part 37.            Intra module refs:   DFU_Data_Setup
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GETSTATUS               20001875 
+               stack 1 = 00000000 ( 00000018 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000190C - 2000190F (0x4 bytes), align: 2
+  Segment part 38.            Intra module refs:   DNLOAD
+                                                   GETSTATUS
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001910 - 20001913 (0x4 bytes), align: 2
+  Segment part 39.            Intra module refs:   DNLOAD
+                                                   GETSTATUS
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001914 - 20001917 (0x4 bytes), align: 2
+  Segment part 40.            Intra module refs:   GETSTATUS
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001918 - 2000194B (0x34 bytes), align: 2
+  Segment part 41.            Intra module refs:   DFU_Status_Out
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DFU_write_crc           20001919 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 2000194C - 2000194F (0x4 bytes), align: 2
+  Segment part 42.            Intra module refs:   DFU_write_crc
+                                                   GETSTATUS
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001950 - 20001953 (0x4 bytes), align: 2
+  Segment part 43.            Intra module refs:   DFU_write_crc
+                                                   DNLOAD
+                                                   GETSTATE
+                                                   GETSTATUS
+                                                   UPLOAD
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001954 - 20001957 (0x4 bytes), align: 2
+  Segment part 44.            Intra module refs:   DFU_write_crc
+                                                   GETSTATUS
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001D50 - 20001D5F (0x10 bytes), align: 2
+  Segment part 4.             Intra module refs:   Segment part 3
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001DF4 - 20001DF5 (0x2 bytes), align: 0
+  Segment part 6.             Intra module refs:   Device_Table
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001D60 - 20001D8F (0x30 bytes), align: 2
+  Segment part 8.             Intra module refs:   Device_Property
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001D90 - 20001DB3 (0x24 bytes), align: 2
+  Segment part 10.            Intra module refs:   User_Standard_Requests
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001DB4 - 20001DBB (0x8 bytes), align: 2
+  Segment part 12.            Intra module refs:   Device_Descriptor
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001DBC - 20001DC3 (0x8 bytes), align: 2
+  Segment part 14.            Intra module refs:   Config_Descriptor
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001DC4 - 20001DF3 (0x30 bytes), align: 2
+  Segment part 16.            Intra module refs:   DFU_String_Descriptor
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\usb_pwr.r79
+  PROGRAM MODULE, NAME : usb_pwr
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA_Z
+  Relative segment, address: 2000246E - 2000246E (0x1 bytes), align: 0
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           bDeviceState            2000246E        DFU_init (usb_prop)
+    -------------------------------------------------------------------------
+DATA_I
+  Relative segment, address: 2000201A - 2000201A (0x1 bytes), align: 0
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           fSuspendEnabled         2000201A        USB_Istr (usb_istr)
+    -------------------------------------------------------------------------
+DATA_Z
+  Relative segment, address: 2000246F - 20002470 (0x2 bytes), align: 0
+  Segment part 5.             Intra module refs:   Resume
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ResumeS                 2000246F 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001958 - 2000197F (0x28 bytes), align: 2
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PowerOn                 20001959        DFU_init (usb_prop)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001980 - 20001983 (0x4 bytes), align: 2
+  Segment part 8.             Intra module refs:   PowerOn
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001984 - 2000199D (0x1a bytes), align: 2
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Suspend                 20001985        USB_Istr (usb_istr)
+               stack 1 = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200019A0 - 200019BB (0x1c bytes), align: 2
+  Segment part 10.            Intra module refs:   Resume
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Resume_Init             200019A1 
+               stack 1 = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 200019BC - 20001A37 (0x7c bytes), align: 2
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Resume                  200019BD        USB_Istr (usb_istr)
+               stack 1 = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001A38 - 20001A3B (0x4 bytes), align: 2
+  Segment part 12.            Intra module refs:   PowerOn
+                                                   Resume
+                                                   Resume_Init
+                                                   Suspend
+    -------------------------------------------------------------------------
+DATA_ID
+  Relative segment, address: 20001DF6 - 20001DF6 (0x1 bytes), align: 0
+  Segment part 4.             Intra module refs:   fSuspendEnabled
+
+    *************************************************************************
+
+  FILE NAME : C:\Manley\EKBoard\EKSTM32F\USBDemo(8M osc)\USBDemo\USBLib\Demos\Device_Firmware_Upgrade\project\EWARM\Debug_RAM\Obj\usb_regs.r79
+  PROGRAM MODULE, NAME : usb_regs
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 20001A3C - 20001A5D (0x22 bytes), align: 2
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetEPTxStatus           20001A3D        Standard_ClearFeature (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001A60 - 20001A63 (0x4 bytes), align: 2
+  Segment part 25.            Intra module refs:   SetEPTxStatus
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001A64 - 20001A77 (0x14 bytes), align: 2
+  Segment part 26.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetEPRxValid            20001A65        DFU_Reset (usb_prop)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001A78 - 20001A7B (0x4 bytes), align: 2
+  Segment part 27.            Intra module refs:   SetEPRxValid
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001A7C - 20001A83 (0x8 bytes), align: 2
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Clear_Status_Out        20001A7D        DFU_Reset (usb_prop)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001A84 - 20001A8B (0x8 bytes), align: 2
+  Segment part 31.            Intra module refs:   Clear_Status_Out
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            20001A85 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001A8C - 20001A8F (0x4 bytes), align: 2
+  Segment part 35.            Intra module refs:   Clear_Status_Out
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001A90 - 20001AA9 (0x1a bytes), align: 2
+  Segment part 42.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ClearDTOG_RX            20001A91        Standard_ClearFeature (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001AAC - 20001AC5 (0x1a bytes), align: 2
+  Segment part 43.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ClearDTOG_TX            20001AAD        Standard_ClearFeature (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001AC8 - 20001ACB (0x4 bytes), align: 2
+  Segment part 46.            Intra module refs:   ClearDTOG_RX
+                                                   ClearDTOG_TX
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001ACC - 20001ACF (0x4 bytes), align: 2
+  Segment part 48.            Intra module refs:   ClearDTOG_RX
+                                                   ClearDTOG_TX
+                                                   Clear_Status_Out
+                                                   SetEPRxValid
+                                                   SetEPTxStatus
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001AD0 - 20001AE3 (0x14 bytes), align: 2
+  Segment part 51.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GetEPTxAddr             20001AD1        DataStageIn (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001AE4 - 20001AF7 (0x14 bytes), align: 2
+  Segment part 52.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GetEPRxAddr             20001AE5        DataStageOut (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001AF8 - 20001B09 (0x12 bytes), align: 2
+  Segment part 53.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetEPTxCount            20001AF9        DFU_Reset (usb_prop)
+                                                   DataStageIn (usb_core)
+                                                   DataStageOut (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001B0C - 20001B0F (0x4 bytes), align: 2
+  Segment part 54.            Intra module refs:   GetEPRxAddr
+                                                   GetEPTxAddr
+                                                   SetEPTxCount
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001B10 - 20001B45 (0x36 bytes), align: 2
+  Segment part 56.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetEPRxCount            20001B11        DFU_Reset (usb_prop)
+                                                   Post0_Process (usb_core)
+                                                   Standard_ClearFeature (usb_core)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001B48 - 20001B4B (0x4 bytes), align: 2
+  Segment part 64.            Intra module refs:   GetEPTxAddr
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001B4C - 20001B4F (0x4 bytes), align: 2
+  Segment part 66.            Intra module refs:   GetEPRxAddr
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001B50 - 20001B53 (0x4 bytes), align: 2
+  Segment part 73.            Intra module refs:   SetEPRxCount
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001B54 - 20001B57 (0x4 bytes), align: 2
+  Segment part 74.            Intra module refs:   SetEPRxCount
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001B58 - 20001B5B (0x4 bytes), align: 2
+  Segment part 75.            Intra module refs:   SetEPTxCount
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001B5C - 20001B65 (0xa bytes), align: 2
+  Segment part 80.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ByteSwap                20001B5D        Setup0_Process (usb_core)
+
+    *************************************************************************
+
+  FILE NAME : C:\Program Files\IAR Systems\Embedded Workbench 4.0 Evaluation\ARM\LIB\dl7mptnnl8f.r79
+  LIBRARY MODULE, NAME : ?low_level_init
+
+  SEGMENTS IN THE MODULE
+  ======================
+ICODE
+  Relative segment, address: 200000EC - 200000EF (0x4 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __low_level_init        200000ED        __program_start (?CMAIN)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?segment_init
+
+  SEGMENTS IN THE MODULE
+  ======================
+ICODE
+  Relative segment, address: 200000F0 - 2000011F (0x30 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __segment_init          200000F1        __program_start (?CMAIN)
+               stack 1 = 00000000 ( 00000008 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__dbg_break
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 20001B68 - 20001B69 (0x2 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __DebugBreak            20001B69        __exit (?__exit)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 20001B6C - 20001B7D (0x12 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __exit                  20001B6D        Segment part 5 (?_EXIT)
+               stack 1 = 00000000 ( 0000000C )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 20001B80 - 20001B83 (0x4 bytes), align: 2
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exit                    20001B81        _main (?CMAIN)
+               stack 1 = 00000000 ( 00000004 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memcpy
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 20001B84 - 20001B99 (0x16 bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memcpy                  20001B85        __segment_init (?segment_init)
+               stack 1 = 00000000 ( 00000008 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memset
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 20001B9C - 20001BAD (0x12 bytes), align: 2
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memset                  20001B9D        __segment_init (?segment_init)
+               stack 1 = 00000000 ( 00000008 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?CMAIN
+
+  SEGMENTS IN THE MODULE
+  ======================
+DIFUNCT
+  Relative segment, address: 20000150, align: 2
+  Segment part 0. ROOT.
+    -------------------------------------------------------------------------
+ICODE
+  Relative segment, address: 20000120 - 20000133 (0x14 bytes), align: 2
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __program_start         20000121        Absolute parts (?ABS_ENTRY_MOD)
+                                                   __vector_table (stm32f10x_vector)
+    -------------------------------------------------------------------------
+ICODE
+  Relative segment, address: 20000134 - 2000014F (0x1c bytes), align: 2
+  Segment part 3.             Intra module refs:   __program_start
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _main                   2000013D 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?_EXIT
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 20001BB0, align: 2
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _exit                   20001BB1        _main (?CMAIN)
+                                                   exit (?exit)
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 20001BB0 - 20001BBB (0xc bytes), align: 2
+  Segment part 5.             Intra module refs:   _exit
+
+
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+INTVEC                             20000000 - 200000EB          EC   rel    2
+ICODE                              200000EC - 2000014F          64   rel    2
+DIFUNCT                                 20000150                     rel    2
+CODE                               20000150 - 20001BBB        1A6C   rel    2
+INITTAB                            20001BBC - 20001BD3          18   rel    2
+DATA_ID                            20001BD4 - 20001DF6         223   rel    2
+DATA_I                             20001DF8 - 2000201A         223   rel    2
+DATA_Z                             2000201C - 20002470         455   rel    2
+CSTACK                             20002474 - 20002873         400   rel    2
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 7 100 bytes of CODE  memory
+ 2 680 bytes of DATA  memory
+   571 bytes of CONST memory
+
+Errors: none
+Warnings: none
+
